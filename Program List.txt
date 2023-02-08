@@ -3,7 +3,14 @@ Program Ordered List
 2. DataSizeRange.java
 3. RandomNumber.java
 
-Folder: Strings
-	1. All_String_methods.java
-	2. Reverse_a_String.java
+Folder: 1.Strings
+		1. All_String_methods.java
+		2. Reverse_a_String.java
+
+   	  2. Numbers 
+		1. RandomNumber.java
+		2. Matrix.java
+		3. BitwiseOperators.java
+
+	  3. Challenges
 	

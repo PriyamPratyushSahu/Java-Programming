@@ -1,4 +1,3 @@
-package date;
 /*
 Month = M(single digit),MM(Double Digit)
 Day = d(single digit),DD(Double Digit)

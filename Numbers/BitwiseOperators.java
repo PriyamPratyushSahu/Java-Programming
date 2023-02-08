@@ -54,5 +54,6 @@ public class BitwiseOperators {
         System.out.println("Right Shift by 1(decimal value): " + decToBin((n >> 1)));
 
         System.out.println("\nNOT value: " + ~n);
+        pp.close();
     }
 }

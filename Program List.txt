@@ -1,6 +1,7 @@
 Program Ordered List
 1. MyFirst.java
 2. DataSizeRange.java
+3. RandomNumber.java
 
 Folder: Strings
 	1. All_String_methods.java

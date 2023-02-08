@@ -1,5 +1,4 @@
-package strings;
-
+package Strings;
 public class All_String_methods {
 
     public static void main(String args[]){

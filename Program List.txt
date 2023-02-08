@@ -1,3 +1,8 @@
 Program Ordered List
 1. MyFirst.java
 2. DataSizeRange.java
+
+Folder: Strings
+	1. All_String_methods.java
+	2. Reverse_a_String.java
+	

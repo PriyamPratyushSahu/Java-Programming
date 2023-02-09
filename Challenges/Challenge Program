@@ -5,3 +5,6 @@ Questions
 3. CuboidAreaAndVolume - Find area and volume of the cuboid
 4. EmailCheck - a. Get the username and domain name from email
                 b. Check the email id is a gmail id
+5. BinaryCheck - Check whether the given number is a binary number or not using regular expression
+6. HexaDecimalCheck - Check whether the given number is a binary number or not using regular expression
+7. DateFormatCheck - Check whether the given date format matches or not using regular expression

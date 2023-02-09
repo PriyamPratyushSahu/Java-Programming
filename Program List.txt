@@ -12,6 +12,4 @@ Folder: 1.Strings
 		1. RandomNumber.java
 		2. Matrix.java
 		3. BitwiseOperators.java
-
-	  3. Challenges
 	

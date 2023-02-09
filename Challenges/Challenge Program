@@ -3,3 +3,5 @@ Questions
 1. TriangleArea -  Find Area of the triangle
 2. QuadreticEquation - Solve the quadratic equation to find the roots
 3. CuboidAreaAndVolume - Find area and volume of the cuboid
+4. EmailCheck - a. Get the username and domain name from email
+                b. Check the email id is a gmail id

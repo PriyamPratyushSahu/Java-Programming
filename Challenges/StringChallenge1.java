@@ -15,6 +15,7 @@ public class StringChallenge1 {
         str = pp.nextLine();
         str = str.replaceAll("[^a-zA-Z0-9]", "");
         System.out.println("Modified String: " + str);
+        pp.close();
     }   
 }
 

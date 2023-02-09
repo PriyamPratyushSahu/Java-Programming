@@ -14,6 +14,7 @@ public class BinaryCheck {
         
         String str=String.valueOf(a);
         System.out.println(str.matches("[01]+"));
+        pp.close();
     }
 }
 /*

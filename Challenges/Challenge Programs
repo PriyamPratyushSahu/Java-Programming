@@ -8,3 +8,5 @@ Questions
 5. BinaryCheck - Check whether the given number is a binary number or not using regular expression
 6. HexaDecimalCheck - Check whether the given number is a binary number or not using regular expression
 7. DateFormatCheck - Check whether the given date format matches or not using regular expression
+8. StringChallenge1 - Remove Special Characters from the string using regular expression
+9. StringChallenge2 - Remove extra space from the string

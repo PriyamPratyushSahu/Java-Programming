@@ -10,3 +10,4 @@ Questions
 7. DateFormatCheck - Check whether the given date format matches or not using regular expression
 8. StringChallenge1 - Remove Special Characters from the string using regular expression
 9. StringChallenge2 - Remove extra space from the string
+10. StringChallenge3 - Count number of words in a string

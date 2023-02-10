@@ -12,3 +12,24 @@ public class CommandLineArgument{
 
 	}
 }
+
+/*
+ ***************************** OUTPUT FROM THE CMD*****************************
+
+ //Type 1
+ C:\Users\priyamps>javac CommandLineArgument.java
+ C:\Users\priyamps>java CommandLineArgument
+Hello World
+
+//Type 2
+C:\Users\priyamps>javac CommandLineArgument.java
+C:\Users\priyamps>java CommandLineArgument Hello World
+Hello
+World
+
+//Type 3
+C:\Users\priyamps>javac CommandLineArgument.java
+
+C:\Users\priyamps>java CommandLineArgument Hello World Welcome to Java Programming
+Hello World Welcome to Java Programming
+ */

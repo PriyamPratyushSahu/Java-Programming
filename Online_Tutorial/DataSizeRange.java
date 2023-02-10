@@ -1,4 +1,4 @@
-package Online_Tutorial;
+
 public class DataSizeRange {
 
     public static void main(String[] args) {

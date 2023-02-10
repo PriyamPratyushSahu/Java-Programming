@@ -27,7 +27,7 @@ public class ProtocolWebsiteCheck {
             System.out.println("Website type: " + "Organisation");
         else if (site.equals("net"))
             System.out.println("Website type: " + "Network");
-
+            pp.close();
     }
 }
 

@@ -1,4 +1,3 @@
-package Online_Tutorial;
 class MyFirst
 {
 	public static void main(String arg[])

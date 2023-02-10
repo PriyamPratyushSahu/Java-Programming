@@ -1,3 +1,5 @@
+package Command_Line_argument;
+
 public class CommandLineArgument{
 	public static void main(String args[]){
 //Type 1: For no argument in the cmd

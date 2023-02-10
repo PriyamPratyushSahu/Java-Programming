@@ -14,3 +14,4 @@ Questions
 11. RadixNumber - Find Radix of a given number
 12. LeapYear - Find the entered year is a leap year or not
 13. DayName - Display Day name, by taking Day number, using if else
+14. ProtocolWebsiteCheck - Take a string as input and find type of website and protocol used, using if else

@@ -13,3 +13,4 @@ Questions
 10. StringChallenge3 - Count number of words in a string
 11. RadixNumber - Find Radix of a given number
 12. LeapYear - Find the entered year is a leap year or not
+13. DayName - Display Day name, by taking Day number, using if else

@@ -16,3 +16,4 @@ Questions
 13. DayName - Display Day name, by taking Day number, using if else
 14. ProtocolWebsiteCheck - Take a string as input and find type of website and protocol used, using if else
 15. DayName2 - Display Day name, by taking Day number, using switch case
+16. ProtocolWebsiteCheck2 - Take a string as input and find type of website and protocol used, using switch case

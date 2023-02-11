@@ -4,7 +4,7 @@ package Challenges;
 
 import java.util.Scanner;
 
-public class ProtocolWebsiteCheck {
+public class ProtocolWebsiteCheck2 {
     public static void main(String[] args) {
         Scanner pp = new Scanner(System.in);
 
@@ -14,23 +14,30 @@ public class ProtocolWebsiteCheck {
         String prt = url.substring(0, url.indexOf(":"));
         String site = url.substring(url.lastIndexOf(".") + 1);
 
-        if (prt.equals("http"))
-            System.out.println("Protocol: " + "Hypertext Transfer Protocol");
-        if (prt.equals("https"))
-            System.out.println("Protocol: " + "Hypertext Transfer Protocol Secured");
-        else if (prt.equals("ftp"))
-            System.out.println("Protocol: " + "File Transfer Protocol");
-        else
-            System.out.println("Invalid Protocol");
+        switch (prt) {
+            case "http":
+                System.out.println("Protocol: " + "Hypertext Transfer Protocol");
+                break;
+            case "https":
+                System.out.println("Protocol: " + "Hypertext Transfer Protocol Secured");
+                break;
+            case "ftp":
+                System.out.println("Protocol: " + "File Transfer Protocol");
+                break;
+        }
 
-        if (site.equals("com"))
-            System.out.println("Website type: " + "Commercial");
-        else if (site.equals("org"))
-            System.out.println("Website type: " + "Organisation");
-        else if (site.equals("net"))
-            System.out.println("Website type: " + "Network");
-        else
-            System.out.println("Invalid site address");
+        switch (site) {
+         
+            case "com":
+                System.out.println("Website type: " + "Commercial");
+            break;
+            case "org":
+                System.out.println("Website type: " + "Organisation");
+                break;
+            case "net":
+                System.out.println("Website type: " + "Network");
+                break;
+        }
             pp.close();
     }
 }

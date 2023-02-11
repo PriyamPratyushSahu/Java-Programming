@@ -24,6 +24,9 @@ public class ProtocolWebsiteCheck2 {
             case "ftp":
                 System.out.println("Protocol: " + "File Transfer Protocol");
                 break;
+            default: 
+                System.out.println("Invalid Protocol");
+                break;
         }
 
         switch (site) {
@@ -36,6 +39,9 @@ public class ProtocolWebsiteCheck2 {
                 break;
             case "net":
                 System.out.println("Website type: " + "Network");
+                break;
+            default:
+                System.out.println("Invalid site address");
                 break;
         }
             pp.close();

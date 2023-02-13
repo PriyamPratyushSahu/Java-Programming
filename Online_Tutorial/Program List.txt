@@ -12,6 +12,7 @@ Folder: 1.Strings
 		1. RandomNumber.java
 		2. Matrix.java
 		3. BitwiseOperators.java
+		4. Armstrong.java
 
 	  3. Command_Lineargument
 		1. CommandLineArgument.java

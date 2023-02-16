@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class _20_NumberInWords {
     public static void main(String[] args) 
     {
-        Scanner scan=new Scanner(System.in);
-        
-        System.out.println("Enter a Number");
-        int n=scan.nextInt();
-        
-        int r;
-        String str="";
-        
-        while(n>0)
-        {
-            r=n%10;
-            n=n/10;
-            str=str+r;
-            
-        }
-        System.out.println(str);
-        
+        Scanner pp =new Scanner(System.in);
+        int n ,r;
+        String str = "";
         char c;
-        for(int i=str.length()-1;i>=0;i--)
+
+        System.out.print("Enter a Number: ");
+        n = pp.nextInt();
+        pp.close();
+        
+        while (n > 0) {
+            r = n % 10;
+            str = str + r;
+            n = n / 10;
+        }
+        
+        //System.out.println(str); //To check
+        
+        
+        for(int i = str.length()-1 ; i >= 0 ;i--)
         {
             c=str.charAt(i);
             switch(c)

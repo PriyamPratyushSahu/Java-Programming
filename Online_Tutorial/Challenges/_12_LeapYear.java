@@ -1,10 +1,8 @@
 //Find the entered year is a leap year or not
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class LeapYear {
+public class _12_LeapYear {
     public static void main(String[] args) {
         Scanner pp = new Scanner(System.in);
 

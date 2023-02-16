@@ -1,34 +1,41 @@
-//Display Day name, by taking Day number, using if else
-
-package Challenges;
+//Display Day name, by taking Day number, using switch case
 
 import java.util.Scanner;
 
-public class DayName {
+public class _15_DayName2 {
     public static void main(String[] args) {
         Scanner pp = new Scanner(System.in);
 
         System.out.println("Enter a Day number: ");
         int day = pp.nextInt();
 
-        if (day == 1)
+        switch (day) {
+            case 1:
             System.out.println("Monday");
-        else if (day == 2)
+            break;
+            case 2:
             System.out.println("Tueday");
-        else if (day == 3)
+            break;
+            case 3:
             System.out.println("Wednesday");
-        else if (day == 4)
+            break;
+            case 4:
             System.out.println("Thurday");
-        else if (day == 5)
+            break;
+            case 5:
             System.out.println("Friday");
-        else if (day == 6)
+            break;
+            case 6:
             System.out.println("Saturday");
-        else if (day == 7)
+            break;
+            case 7:
             System.out.println("Sunday");
-        else
-            System.out.println("Invalid Day Number");
+            break;
+            default:
+            System.out.println("Invalid Day Number");    
+            break;
+        }
         pp.close();
-
     }
 }
 

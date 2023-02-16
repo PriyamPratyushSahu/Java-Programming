@@ -1,11 +1,9 @@
 //Find Area of the triangle
 
-package Challenges;
-
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class TriangleArea {
+public class _1_TriangleArea {
 
     public static void main(String args[]) {
         Scanner pp = new Scanner(System.in);

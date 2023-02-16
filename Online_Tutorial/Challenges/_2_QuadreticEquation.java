@@ -1,10 +1,8 @@
 //Solve the quadratic equation to find the roots
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class QuadreticEquation {
+public class _2_QuadreticEquation {
     public static void main(String args[]) {
         Scanner pp = new Scanner(System.in);
         int a, b, c;

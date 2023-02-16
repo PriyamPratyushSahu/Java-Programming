@@ -1,10 +1,8 @@
 //Take a string as input and find type of website and protocol used,using if else
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class ProtocolWebsiteCheck2 {
+public class _16_ProtocolWebsiteCheck2 {
     public static void main(String[] args) {
         Scanner pp = new Scanner(System.in);
 

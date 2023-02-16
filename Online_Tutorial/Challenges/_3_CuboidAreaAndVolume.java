@@ -1,10 +1,8 @@
 //Find area and volume of the cuboid
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class CuboidAreaAndVolume {
+public class _3_CuboidAreaAndVolume {
 
     public static void main(String[] args) 
     {

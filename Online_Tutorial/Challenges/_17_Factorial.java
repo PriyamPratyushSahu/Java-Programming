@@ -1,10 +1,8 @@
 //To find factorial of a number
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class Factorial {
+public class _17_Factorial {
 
     public static void main(String args[]) {
         int i, f, k;

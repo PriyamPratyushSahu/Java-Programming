@@ -1,10 +1,8 @@
 //Check whether the given number is a binary number or not using regular expression
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class BinaryCheck {
+public class _5_BinaryCheck {
 
     public static void main(String[] args) 
     {

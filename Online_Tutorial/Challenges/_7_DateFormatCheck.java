@@ -1,10 +1,8 @@
 //Check whether the given date format matches or not using regular expression
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class DateFormatCheck {
+public class _7_DateFormatCheck {
 
     public static void main(String args[]) {
         Scanner pp = new Scanner(System.in);

@@ -1,10 +1,8 @@
 //Check whether the given number is a binary number or not using regular expression
 
-package Challenges;
-
 import java.util.Scanner;
 
-public class HexaDecimalCheck {
+public class _6_HexaDecimalCheck {
 
     public static void main(String[] args) {
         Scanner pp = new Scanner(System.in);

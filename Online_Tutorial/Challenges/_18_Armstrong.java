@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//To check whether a number is armstrong number or not
+//To check whether a number is an armstrong number or not
 
 public class _18_Armstrong {
 

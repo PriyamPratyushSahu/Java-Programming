@@ -20,4 +20,5 @@ Questions
 17. Factorial - To find factorial of a number
 18. Armstrong - To check whether a number is an armstrong number or not
 19. Palindrome - To check whether a number is a palindrome number or not
-20 NumberInWords - To enter a number and display each digit in words
+20. NumberInWords - To enter a number and display each digit in words
+21. FibonacciSeries - To display the fibonacci Series

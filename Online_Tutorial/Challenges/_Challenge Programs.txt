@@ -22,3 +22,7 @@ Questions
 19. Palindrome - To check whether a number is a palindrome number or not
 20. NumberInWords - To enter a number and display each digit in words
 21. FibonacciSeries - To display the fibonacci Series
+22. NumberPattern1
+23. NumberPattern2
+24. NumberPattern3
+25. SecondLargestNumber - Find a second largest number from the array

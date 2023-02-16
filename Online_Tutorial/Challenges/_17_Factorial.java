@@ -5,16 +5,18 @@ import java.util.Scanner;
 public class _17_Factorial {
 
     public static void main(String args[]) {
-        int i, f, k;
+        
         Scanner pp = new Scanner(System.in);
+        int n , i, f;
         System.out.println("Enter a number: ");
-
-        i = pp.nextInt();
-        for (f = 1, k = 1; k <= i; k++) {
-            f = f * k;
-        }
-        System.out.format("Factorial of %d is: %d", i, f);
+        n = pp.nextInt();
         pp.close();
+
+        for (f = 1, i = 1; i <= n; i++) {
+            f = f * i;
+        }
+        System.out.format("Factorial of %d is: %d", n, f);
+        
     }
 }
 

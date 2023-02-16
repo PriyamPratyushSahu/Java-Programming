@@ -18,3 +18,4 @@ Questions
 15. DayName2 - Display Day name, by taking Day number, using switch case
 16. ProtocolWebsiteCheck2 - bTake a string as input and find type of website and protocol used, using switch Characters
 17. Factorial - To find factorial of a number
+18. Armstrong - To check whether a number is armstrong number or not

@@ -1,6 +1,7 @@
+//To check whether a number is a palindrome number or not
+
 import java.util.Scanner;
 
-//To check whether a number is a palindrome number or not
 public class _19_Palindrome {
 
     public static void main(String args[]) {

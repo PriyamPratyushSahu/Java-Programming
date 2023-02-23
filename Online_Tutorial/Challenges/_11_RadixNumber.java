@@ -1,5 +1,8 @@
 //Find Radix of a given number
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _11_RadixNumber {

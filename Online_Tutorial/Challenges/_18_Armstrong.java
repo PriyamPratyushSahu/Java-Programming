@@ -1,3 +1,8 @@
+//To check whether the number is an Armstrong number or not
+
+package Challenges;
+
+
 import java.util.Scanner;
 
 //To check whether a number is an armstrong number or not

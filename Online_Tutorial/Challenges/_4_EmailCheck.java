@@ -1,6 +1,8 @@
 //Get the username and domain name from email
 //Check the email id is a gmail id
 
+package Challenges;
+
 public class _4_EmailCheck {
 
     public static void main(String[] args) 

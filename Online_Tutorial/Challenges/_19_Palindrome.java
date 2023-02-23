@@ -1,5 +1,9 @@
 //To check whether a number is a palindrome number or not
 
+package Challenges;
+
+
+
 import java.util.Scanner;
 
 public class _19_Palindrome {

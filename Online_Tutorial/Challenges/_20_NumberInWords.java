@@ -1,5 +1,8 @@
 // To enter a number and display each digit in words
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _20_NumberInWords {

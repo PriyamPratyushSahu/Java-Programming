@@ -68,7 +68,7 @@ Questions
 25. SecondLargestNumber - Find a second largest number from the array
 26. RotationOfArray
 27. IncreasingSizeOfArray
-28. MatrixMultiplication
+28. MatrixMultiplication - Using 2 dimensional array, check condition and multiply the array
                                         ------- Method -------
 29. PrimeNumber
 30. OverrideValidateMethod

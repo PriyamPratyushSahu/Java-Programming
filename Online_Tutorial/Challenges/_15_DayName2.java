@@ -1,5 +1,8 @@
 //Display Day name, by taking Day number, using switch case
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _15_DayName2 {

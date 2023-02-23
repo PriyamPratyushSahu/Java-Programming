@@ -1,5 +1,7 @@
 //Find Area of the triangle
 
+package Challenges;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

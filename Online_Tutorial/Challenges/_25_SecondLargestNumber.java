@@ -1,3 +1,5 @@
+package Challenges;
+
 //Find a second largest number from the array
 
 public class _25_SecondLargestNumber {

@@ -1,5 +1,8 @@
 //Remove extra space from the string
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _10_StringChallenge3 {

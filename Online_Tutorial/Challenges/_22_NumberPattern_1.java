@@ -1,4 +1,7 @@
 
+package Challenges;
+
+
 public class _22_NumberPattern_1{
     
     public static void main(String[] args) {

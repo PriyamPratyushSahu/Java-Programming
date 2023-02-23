@@ -1,5 +1,8 @@
 //Display Day name, by taking Day number, using if else
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _13_DayName {

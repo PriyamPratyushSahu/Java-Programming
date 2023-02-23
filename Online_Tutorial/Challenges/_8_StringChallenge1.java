@@ -1,5 +1,8 @@
 //Remove Special Characters from the string using regular expression
 
+package Challenges;
+
+
 import java.util.Scanner;
 
 public class _8_StringChallenge1 {

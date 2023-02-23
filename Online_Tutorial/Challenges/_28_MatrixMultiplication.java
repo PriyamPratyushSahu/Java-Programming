@@ -1,15 +1,34 @@
 package Challenges;
 
 public class _28_MatrixMultiplication {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+        int A[][]={{3,5,9},{7,6,2},{4,3,5}};
+        int B[][]={{1,0,0},{0,1,0},{0,0,1}};
         
-        int A[]={8,6,10,9,2};
-        System.out.println("Length of A="+A.length);
-        int B[]=new int[10];
-        for(int i=0;i<A.length;i++){
-            B[i]=A[i];
+        int C[][]=new int[3][3];
+    
+        for(int i=0;i<3;i++)
+        {
+            for(int j=0;j<3;j++)
+            {
+                C[i][j]=0;
+                for(int k=0;k<3;k++)
+                {
+                    C[i][j]=C[i][j]+A[i][k]*B[k][j];
+                }
+            }
         }
-        A=B;
-        System.out.println("Length of A="+A.length);
+        
+        for(int x[]:C)
+        {
+            for(int y:x)
+            {
+                System.out.print(y+" ");
+            }
+            System.out.println("");
+        }
+    
     }
+    
 }

@@ -1,3 +1,5 @@
+//To check whether a number is prime or not
+
 package Challenges;
 
 public class _29_PrimeNumber {

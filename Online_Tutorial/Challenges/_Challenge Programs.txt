@@ -70,7 +70,7 @@ Questions
 27. IncreasingSizeOfArray
 28. MatrixMultiplication - Using 2 dimensional array, check condition and multiply the array
                                         ------- Method -------
-29. PrimeNumber
+29. PrimeNumber - To check whether a number is prime or not
 30. OverrideValidateMethod
 31. CalculateDiscount
 32. SumOfNumbers - Calculate sum of numbers from command line

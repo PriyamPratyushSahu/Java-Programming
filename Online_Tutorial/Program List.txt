@@ -13,6 +13,7 @@ Folder: 1.Strings
 		2. Matrix.java
 		3. BitwiseOperators.java
 		4. Armstrong.java
+		5. Arrays.java
 
 	  3. Command_Lineargument
 		1. CommandLineArgument.java

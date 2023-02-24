@@ -72,7 +72,10 @@ Questions
                                         ------- Method -------
 29. PrimeNumber - To check whether a number is prime or not
 30. OverloadValidateMethod - A menu driven program where user enter choice for 1 for area calculation, 2 for reverse a value or array or 3 validate name and age
-31. CalculateDiscount
+31. CalculateDiscount - Take input the price of some products and calculate CalculateDiscount
+  - Less than 500 : 10% discount
+  - Greater than equal to  500 and less than 1000 : 15% discount
+  - Greater than equal to 1000 : 20% discount
 32. SumOfNumbers - Calculate sum of numbers from command line
                                         ------- Object-Oriented Programming -----
 33. RectangeTest - Calculate the perimeter and area of a rectangle

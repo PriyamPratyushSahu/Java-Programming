@@ -21,4 +21,6 @@ Folder: 1.Strings
 	  4. EnumPractice	
 		1. EnumDays.java
 		2. EnumClass. java
-	  5. 
+
+	  5. Methods
+	  	1. Variable Arguments 

@@ -1,3 +1,5 @@
+//Decimal to Binary, Binary to Decimal, Right Shift, Left Shift
+
 package Numbers;
 
 import java.util.Scanner;

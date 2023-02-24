@@ -11,7 +11,7 @@ Folder: 1.Strings
    	  2. Numbers 
 		1. RandomNumber.java
 		2. Matrix.java
-		3. BitwiseOperators.java
+		3. BitwiseOperators.java - Decimal to Binary, Binary to Decimal, Right Shift, Left Shift
 		4. Armstrong.java
 		5. Arrays.java
 

@@ -78,7 +78,6 @@ Questions
   - Greater than equal to 1000 : 20% discount
 32. SumOfNumbers - Calculate sum of numbers from command line
                                         ------- Object-Oriented Programming -----
-33. RectangeTest - Calculate the perimeter and area of a rectangle
-34. CylinderTest - Calculate the perimeter and area of the CylinderTest
-35. StudentDetails - To enter details of the student and print his details
-36. ProductCustomer
+33. CylinderTest - Calculate the perimeter and area of the CylinderTest
+34. StudentDetails - To enter details of the student and print his details
+35. ProductCustomer

@@ -24,3 +24,10 @@ Folder: 1.Strings
 
 	  5. Methods
 	  	1. Variable Arguments 
+	  6. Inheritance_Practice
+		1. BaseClass.java
+		2. Child_1.java
+		3. ConstructorPractice.java
+		4. PreditTheOutput_1.java
+		5. Shape.java
+		6. SuperClass.java

@@ -1,3 +1,10 @@
+/*
+Take input the price of some products and calculate CalculateDiscount
+  - Less than 500 : 10% discount
+  - Greater than equal to  500 and less than 1000 : 15% discount
+  - Greater than equal to 1000 : 20% discount
+ */
+
 package Challenges;
 
 import java.util.Scanner;

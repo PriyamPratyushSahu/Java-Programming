@@ -6,8 +6,7 @@ class P {
         System.out.println("Class P Constructor");
     }
     P(int a){
-        System.out.println("Class P Parameterised Constructor");
-        System.out.println("Value from child: " + a);
+        System.out.println("Class P Parameterised Constructor: Value from child: " + a);
     }
 }
 
@@ -34,7 +33,6 @@ public class ConstructorPractice {
 
 Class P Constructor
 Class Q Constructor
-Class P Parameterised Constructor
-Value from child: 10
+Class P Parameterised Constructor: Value from child: 10
 Class Q Parameterised Constructor
  */

@@ -79,5 +79,5 @@ Questions
 32. SumOfNumbers - Calculate sum of numbers from command line
                                         ------- Object-Oriented Programming -----
 33. CylinderTest - Calculate the perimeter and area of the CylinderTest
-34. StudentDetails - To enter details of the student and print his details
+//To be done... 34. StudentDetails - To enter details of the student and print his details
 35. ProductCustomer

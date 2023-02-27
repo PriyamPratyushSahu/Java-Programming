@@ -59,6 +59,7 @@ public class _33_CylinderTest {
 
     public static void main(String[] args) {
         Cylinder c = new Cylinder();
+        
         int h, r;
         h = 10 + (int) Math.round(Math.random() * 20);
         r = 5 + (int)Math.round(Math.random()* 20);

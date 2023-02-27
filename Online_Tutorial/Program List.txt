@@ -38,3 +38,5 @@ Folder:
 		6. SuperClass.java
 		
 	  7. Abstract Class
+	  	1. Sample Example
+		2. Multiple Abstract Class

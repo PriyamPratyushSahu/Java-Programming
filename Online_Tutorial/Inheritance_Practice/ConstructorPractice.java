@@ -1,38 +1,55 @@
 package Inheritance_Practice;
 
-class P {
+class Parent {
     
-    P(){
-        System.out.println("Class P Constructor");
+    Parent(){
+        System.out.println("Parent Class: Non-Parameterised Constructor called");
     }
-    P(int a){
-        System.out.println("Class P Parameterised Constructor: Value from child: " + a);
+    Parent(double a){
+        System.out.println("Parent Class: Parameterised Constructor called: Value from child: " + a);
     }
 }
 
-class Q extends P{
-    Q(){
-        System.out.println("Class Q Constructor");
+class Child extends Parent{
+    Child(){
+        System.out.println("Child Class: Non-Parameterised Constructor called");
     }
-    Q(int a){
+
+    Child(int a) {
+        System.out.println("Child Class:  Parameterised Constructor called");
+    }
+    
+    Child(double a) {
         super(a);
-        System.out.println("Class Q Parameterised Constructor");
+        System.out.println("Child Class: Parameterised Constructor called");
     }
 }
 
 public class ConstructorPractice {
 
-    public static void main(String args[]){
-        Q q = new Q();
-        Q q2 = new Q(10);
+    public static void main(String args[]) {
+        Child c;
+        System.out.println("Case 1: c = new Child()");
+        c = new Child();
+        System.out.println("\nCase 2: c = new Child(10)");
+        c = new Child(10);
+        System.out.println("\nCase 3: c = new Child(20.0)");
+        c = new Child(20.0);
     }
 }
 
 /*
 ************************** OUTPUT **************************
 
-Class P Constructor
-Class Q Constructor
-Class P Parameterised Constructor: Value from child: 10
-Class Q Parameterised Constructor
+Case 1: c = new Child()
+Parent Class: Non-Parameterised Constructor called
+Child Class: Non-Parameterised Constructor called
+
+Case 2: c = new Child(10)
+Parent Class: Non-Parameterised Constructor called
+Child Class:  Parameterised Constructor called
+
+Case 3: c = new Child(20.0)
+Parent Class: Parameterised Constructor called: Value from child: 20.0
+Child Class: Parameterised Constructor called
  */

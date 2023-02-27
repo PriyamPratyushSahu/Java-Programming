@@ -4,7 +4,10 @@ Program Ordered List
 3. RandomNumber.java
 4. DateManagement.java
 
-Folder: 1.Strings
+Folder: 
+      0. Challenges
+
+	  1.Strings
 		1. All_String_methods.java
 		2. Reverse_a_String.java
 
@@ -15,7 +18,7 @@ Folder: 1.Strings
 		4. Armstrong.java
 		5. Arrays.java
 
-	  3. Command_Lineargument
+	  3. Command_Line Argument
 		1. CommandLineArgument.java
 
 	  4. EnumPractice	

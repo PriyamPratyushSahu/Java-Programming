@@ -28,6 +28,7 @@ Folder:
 	  5. Methods
 	  	1. Variable Arguments 
 		2. Sum of numbers using Recursion
+
 	  6. Inheritance_Practice
 		1. BaseClass.java
 		2. Child_1.java
@@ -35,3 +36,5 @@ Folder:
 		4. PreditTheOutput_1.java
 		5. Shape.java
 		6. SuperClass.java
+		
+	  7. Abstract Class

@@ -23,10 +23,10 @@ class C extends B {
 }
 
 
-public class _2_MultipleAbstractClass {
+public class _2_MultiLevelAbstractClass {
 
     public static void main(String args[]) {
-        // -> This is wrong ------> //A aa = new A();
+        // -> This is wrong ------> A aa = new A();
 
         System.out.println("Case 1: A a = new C()");
         A a = new C();

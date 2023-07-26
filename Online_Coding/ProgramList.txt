@@ -1,0 +1,1 @@
+1. Prog1: Question: You are given a number N. Find the total number of setbits in the numbers from 1 to N.

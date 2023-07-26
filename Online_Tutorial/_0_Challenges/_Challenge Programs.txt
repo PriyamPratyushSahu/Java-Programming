@@ -1,0 +1,89 @@
+Questions
+
+1. TriangleArea -  Find Area of the triangle
+2. QuadreticEquation - Solve the quadratic equation to find the roots
+3. CuboidAreaAndVolume - Find area and volume of the cuboid
+4. EmailCheck - a. Get the username and domain name from email
+                b. Check the email id is a gmail id
+5. BinaryCheck - Check whether the given number is a binary number or not using regular expression
+6. HexaDecimalCheck - Check whether the given number is a binary number or not using regular expression
+7. DateFormatCheck - Check whether the given date format matches or not using regular expression
+8. StringChallenge1 - Remove Special Characters from the string using regular expression
+9. StringChallenge2 - Remove extra space from the string
+10. StringChallenge3 - Count number of words in a string
+                                        ------ Conditional Statement ------
+11. RadixNumber - Find Radix of a given number
+12. LeapYear - Find the entered year is a leap year or not
+13. DayName - Display Day name, by taking Day number, using if else
+14. ProtocolWebsiteCheck - Take a string as input and find type of website and protocol used, using if else
+15. DayName2 - Display Day name, by taking Day number, using switch case
+16. ProtocolWebsiteCheck2 - bTake a string as input and find type of website and protocol used, using switch Characters
+
+                                         ----- Loop -----
+17. Factorial - To find factorial of a number
+18. Armstrong - To check whether a number is an armstrong number or not
+19. Palindrome - To check whether a number is a palindrome number or not
+20. NumberInWords - To enter a number and display each digit in words
+21. FibonacciSeries - To display the fibonacci Series
+22. NumberPattern1
+                        2 3 4 5 6 
+                        3 4 5 6 7
+                        4 5 6 7 8
+                        5 6 7 8 9
+                        6 7 8 9 10
+
+
+                        01 02 03 04 05 
+                        06 07 08 09 10
+                        11 12 13 14 15
+                        16 17 18 19 20
+                        21 22 23 24 25
+
+23. NumberPattern2
+1 
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15t
+
+24. NumberPattern3
+
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
+        * 
+      * * 
+    * * *
+  * * * *
+* * * * *
+                                        ------- Array -------
+25. SecondLargestNumber - Find a second largest number from the array
+26. RotationOfArray
+27. IncreasingSizeOfArray
+28. MatrixMultiplication - Using 2 dimensional array, check condition and multiply the array
+                                        ------- Method -------
+29. PrimeNumber - To check whether a number is prime or not
+30. OverloadValidateMethod - A menu driven program where user enter choice for 1 for area calculation, 2 for reverse a value or array or 3 validate name and age
+31. CalculateDiscount - Take input the price of some products and calculate CalculateDiscount
+  - Less than 500 : 10% discount
+  - Greater than equal to  500 and less than 1000 : 15% discount
+  - Greater than equal to 1000 : 20% discount
+32. SumOfNumbers - Calculate sum of numbers from command line
+                                        ------- Object-Oriented Programming -----
+33. CylinderTest - Calculate the perimeter and area of the CylinderTest
+//To be done... 34. StudentDetails - To enter details of the student and print his details
+35. ProductCustomer
+36. AccountCustomer - Inheritance
+                         -> | Account | <-
+                        /                 \
+                       /                   \
+                      /                     \
+             Savings Account            Loan Account

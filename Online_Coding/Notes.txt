@@ -1,0 +1,255 @@
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+1. Iterating over 2D array using for each
+ int arr[][] = {
+            {1 , 2 , 3 , 4},
+            {5 , 6 , 7 , 8},
+            {2 , 4 , 6 , 8},
+            {1 , 3 , 5 , 7}
+        };
+
+        for(int i[] : arr){
+            for(int j : i){
+                System.out.print(j + " ");
+            }
+        }
+
+Output: 1 2 3 4 5 6 7 8 2 4 6 8 1 3 5 7
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+2. To replace all vowels from the string
+String result = str.replaceAll("[aeiouAEIOU]", "");
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+
+3. Remove special characters using regular expression
+String result = input.replaceAll("[^a-zA-Z0-9\\s]", "");
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+4.
+A cell (r, c) of an excel sheet is represented as a string "<col><row>" where:
+
+<col> denotes the column number c of the cell. It is represented by alphabetical letters.
+For example, the 1st column is denoted by 'A', the 2nd by 'B', the 3rd by 'C', and so on.
+<row> is the row number r of the cell. The rth row is represented by the integer r.
+You are given a string s in the format "<col1><row1>:<col2><row2>", where <col1> represents the column c1, <row1> represents the row r1, <col2> represents the column c2, and <row2> represents the row r2, such that r1 <= r2 and c1 <= c2.
+
+Return the list of cells (x, y) such that r1 <= x <= r2 and c1 <= y <= c2. The cells should be represented as strings in the format mentioned above and be sorted in non-decreasing order first by columns and then by rows.
+
+ 
+
+Example 1:
+
+
+Input: s = "K1:L2"
+Output: ["K1","K2","L1","L2"]
+Explanation:
+The above diagram shows the cells which should be present in the list.
+The red arrows denote the order in which the cells should be presented.
+Example 2:
+
+
+Input: s = "A1:F1"
+Output: ["A1","B1","C1","D1","E1","F1"]
+Explanation:
+The above diagram shows the cells which should be present in the list.
+The red arrow denotes the order in which the cells should be presented.
+
+class Solution {
+    public List<String> cellsInRange(String s) {
+        String ss[] = s.split(":");
+        char c1 = ss[0].charAt(0);
+        char c2 = ss[1].charAt(0);
+        int r1 = Integer.parseInt(ss[0].substring(1,2));
+        int r2 = Integer.parseInt(ss[1].substring(1,2));
+        // System.out.println(c1);
+        // System.out.println(c2);
+        // System.out.println(r1);
+        // System.out.println(r2);
+
+        List<String> ll = new ArrayList<>();
+        for(int i = c1; i <= c2; i++){
+            for(int j = r1; j <= r2; j++)
+                ll.add((char)i +""+ j);
+        }
+        return ll;
+    }
+}
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+5. The Integer.toString() method is a built-in method in Java that converts
+an integer value to its corresponding string representation.
+
+The method has two overloaded versions:
+
+toString(int i): This version of the method converts the given integer i
+to its decimal (base 10)string representation.
+
+toString(int i, int radix): This version of the method converts the given integer i
+to its string representation using the specified radix (base).
+The radix can be any value between 2 and 36, where 10 represents decimal digits (0-9),
+and additional digits are represented by alphabets (A-Z).
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+6. To find middle node in LinkedList
+
+public Node findMiddleNode() {
+        if (head == null) {
+            return null; // Empty list
+        }
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.getNext() != null) {
+            slow = slow.getNext();
+            fast = fast.getNext().getNext();
+        }
+
+        return slow;
+    }
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+7. Find kth node from end
+
+    public Node<T> findKthNodeFromEnd(int k) {
+        if (head == null || k <= 0) {
+            return null; // Empty list or invalid k value
+        }
+
+        Node<T> slow = head;
+        Node<T> fast = head;
+
+        // Move the fast pointer k steps ahead
+        for (int i = 0; i < k; i++) {
+            if (fast == null) {
+                return null; // The list does not contain k elements
+            }
+            fast = fast.getNext();
+        }
+
+        // Move both slow and fast pointers simultaneously until the fast pointer reaches the end
+        while (fast != null) {
+            slow = slow.getNext();
+            fast = fast.getNext();
+        }
+
+        return slow;
+    }
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+8. Remove duplicate from unsorted Linked List
+    public void removeDuplicates(){
+        ListNode current = head.next;
+        ListNode end = head;
+        while(current != null){
+            ListNode ptr = head;
+            int flag = 0;
+            while(ptr != current)
+            {
+                if(ptr.val == current.val){
+                    flag = 1;
+                    break;
+                }
+                prev = ptr;
+                ptr = ptr.next;
+            }
+            if(flag == 0){
+                end = ptr;
+                //end.next = current;
+            }
+            else
+            end.next = current.next;
+            current = current.next;
+        }
+
+        printList();
+        
+    }
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+9. Adding unqiue elements to set from string array
+
+     Set<String> words = new HashSet<>();
+     Collections.addAll(words, stringArr);
+    
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+     10. To get the first digit of a number in Java
+
+     int number = 12345;
+    String numberStr = Integer.toString(number);
+    char firstDigit = numberStr.charAt(0);
+    int firstDigitValue = Character.getNumericValue(firstDigit);
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+    11. String to char array
+
+    String str = "Hello";
+    char[] charArray = str.toCharArray();
+
+12. Runtime comparison while converting int to String;
+int i = 10;
+    //Runtime: 1ms
+    String s = i + "";
+
+    //Runtime: 0ms
+    String s = Integer.toString(i);
+
+13. Two Array comparision 
+    import java.util.Arrays;
+
+public class ArraysEqualsExample {
+    public static void main(String[] args) {
+        int[] array1 = {1, 2, 3, 4, 5};
+        int[] array2 = {1, 2, 3, 4, 5};
+        int[] array3 = {1, 2, 3, 4, 6};
+
+        boolean equalArrays1and2 = Arrays.equals(array1, array2);
+        boolean equalArrays1and3 = Arrays.equals(array1, array3);
+
+        // Print the result as comments
+        System.out.println(equalArrays1and2); // Output: true
+        System.out.println(equalArrays1and3); // Output: false
+    }
+}
+
+14. To check if input is Empty
+Scanner pp = new Scanner(System.in);
+        // If this condition is true, it means that there is no input available, and therefore the input is considered empty        
+        if (!pp.hasNext()) 
+            System.out.println(0);
+
+15. Arrays.copyOfRange is a method in Java that allows you to create a new array by copying 
+a range of elements from an existing array.
+
+int[] original = {1, 2, 3, 4, 5};
+int[] newArray = Arrays.copyOfRange(original, 2, 4);
+System.out.println(Arrays.toString(newArray)); // Output: [3, 4]
+
+16. Dynamic resizing of array
+    
+    int digits[] = new int[4];
+    System.out.println(digits.length); // 4
+    
+    digits = new int[digits.length + 1];
+    System.out.println(digits.length); // 5
+
+17. Return a new array of dynamic size
+    1. Array with value 
+        return new int[]{1, 2};
+    2. Empty array
+        return new int[]{};
+    

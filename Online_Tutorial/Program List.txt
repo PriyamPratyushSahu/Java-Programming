@@ -1,0 +1,42 @@
+Program Ordered List
+1. MyFirst.java
+2. DataSizeRange.java
+3. RandomNumber.java
+4. DateManagement.java
+
+Folder: 
+      0. Challenges
+
+	  1.Strings
+		1. All_String_methods.java
+		2. Reverse_a_String.java
+
+   	  2. Numbers 
+		1. RandomNumber.java
+		2. Matrix.java
+		3. BitwiseOperators.java - Decimal to Binary, Binary to Decimal, Right Shift, Left Shift
+		4. Armstrong.java
+		5. Arrays.java
+
+	  3. Command_Line Argument
+		1. CommandLineArgument.java
+
+	  4. EnumPractice	
+		1. EnumDays.java
+		2. EnumClass. java
+
+	  5. Methods
+	  	1. Variable Arguments 
+		2. Sum of numbers using Recursion
+
+	  6. Inheritance_Practice
+		1. BaseClass.java
+		2. Child_1.java
+		3. ConstructorPractice.java
+		4. PreditTheOutput_1.java
+		5. Shape.java
+		6. SuperClass.java
+		
+	  7. Abstract Class
+	  	1. Sample Example
+		2. Multiple Abstract Class

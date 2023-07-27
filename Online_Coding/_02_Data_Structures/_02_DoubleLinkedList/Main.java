@@ -8,7 +8,7 @@ public class Main {
         int size = 1 + (int)Math.round(Math.random() * 10);
 
         for(int i = 1; i<= size; i++)
-        dll.insert( (int)Math.round(Math.random() * 30));
+        dll.append((int)Math.round(Math.random() * 30));
 
         dll.printNode();
         dll.headValue();

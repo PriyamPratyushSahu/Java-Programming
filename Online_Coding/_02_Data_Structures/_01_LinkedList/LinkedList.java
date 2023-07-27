@@ -38,8 +38,7 @@ public class LinkedList {
         length = 0;
     }
 
-    // Append(), insert value to linked
-    // list--------------------------------------------------------------1
+    // Append(), insert value to linked list-----------------------------1
     void append(int value) {
         Node newNode = new Node(value);
 
@@ -57,8 +56,7 @@ public class LinkedList {
         length++;
     }
 
-    // headValue(),to display the head node
-    // value-----------------------------------------------------------2
+    // headValue(),to display the head node value-------------------------2
     void headValue() {
         if (head != null) {
             System.out.println("Head Value: " + head.value);
@@ -66,8 +64,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // tailValue(),to display the tail node
-    // value-----------------------------------------------------------3
+    // tailValue(),to display the tail node value-------------------------3
     void tailValue() {
         if (tail != null) {
             System.out.println("Tail Value: " + tail.value);
@@ -75,8 +72,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // printNode(), to display the complete
-    // list-------------------------------------------------------------4
+    // printNode(), to display the complete list--------------------------4
     void printNode() {
         Node current;
         if (head != null) {
@@ -89,8 +85,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // nodeLength(), to display length of the
-    // list-----------------------------------------------------------5
+    // nodeLength(), to display length of the list------------------------5
     void nodeLength() {
         if (length != 0)
             System.out.println("Length of Single Linked List is: " + length);
@@ -98,8 +93,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // deleteHeadValue(), to delete the head
-    // node-------------------------------------------------------------6
+    // deleteHeadValue(), to delete the head node-------------------------6
     void deleteHeadValue() {
         if (head != null) {
             length--;
@@ -115,8 +109,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // deleteTailValue(), to delete the tail
-    // node-------------------------------------------------------------7
+    // deleteTailValue(), to delete the tail node-------------------------7
     void deleteTailValue() {
         if (tail != null) {
             length--;
@@ -133,8 +126,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // deleteValue(), to delete the given
-    // node-------------------------------------------------------------8
+    // deleteValue(), to delete the given node----------------------------8
     void deleteValue(int value) {
         if (head.value == value)
             deleteHeadValue();
@@ -158,8 +150,7 @@ public class LinkedList {
 
     }
 
-    // updateNode(), to update node value at specific
-    // position--------------------------------------------------9
+    // updateNode(), to update node value at specific position-----------9
     void updateNode(int pos, int value) {
         if (pos <= length) {
             int i = 1;
@@ -174,8 +165,7 @@ public class LinkedList {
             System.out.println("Invalid Position");
     }
 
-    // insertNode(), to insert a node at specific
-    // position-----------------------------------------------------10
+    // insertNode(), to insert a node at specific position-------------10
     void insertNode(int pos, int value) {
         if (pos <= length || pos == 1) {
             if (pos == 1) {
@@ -201,8 +191,7 @@ public class LinkedList {
             System.out.println("Invalid Position");
     }
 
-    // serach(), to search a given value in the linked
-    // list-----------------------------------------------11
+    // serach(), to search a given value in the linked list-----------11
     public boolean search(int val) {
         Node current = head;
         while (current != null) {
@@ -214,8 +203,7 @@ public class LinkedList {
         return false;
     }
 
-    // reverseLinkedlist(): to reverse the linked
-    // list--------------------------------------------------12
+    // reverseLinkedlist(): to reverse the linked list-----------------12
     void reverseLinkedList() {
         if (head != null) {
             Node temp = head;
@@ -241,7 +229,7 @@ public class LinkedList {
 
     // partitionList(): takes an integer "x" as input and rearranges the linked list
     // in such a way that all nodes with values less than "x" come before nodes with
-    // values greater than or equal to "x".-----13
+    // values greater than or equal to "x".----------------------------13
     void partitionList(int x) {
         if (head != null) {
             Node curNode = head;
@@ -269,8 +257,7 @@ public class LinkedList {
         printNode();
     }
 
-    // removeDuplicates(): to remove duplicate values from the linked
-    // list--------------------------------------------------14
+    // removeDuplicates(): to remove duplicate values from the linked list-------14
     public void removeDuplicates() {
         if (head != null || head.next != null) {
             Node current = head.next;

@@ -1,3 +1,4 @@
+//For practicing any sample code 
 package Online_Coding._01_Collections_Practice;
 
 import java.util.*;
@@ -7,6 +8,7 @@ public class Practice {
     public static void main(String args[]) {
             Scanner pp = new Scanner(System.in);
             int n;
+            System.out.println("Enter a ");
             n = pp.nextInt();
             for (int i = 1; i <= n; i++) {
                 String s = pp.nextLine();

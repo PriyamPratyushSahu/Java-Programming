@@ -1,5 +1,5 @@
-1. Prog1:  ArrayList and Iterator
-2. Prog2: LinkedList
+1. Prog1_ArrayList:  ArrayList and Iterator
+2. Prog2_LinkedList: LinkedList
 3. Prog3: LinkedList(All Basic operations)
 4. Prog4: Double LinkedList
 5. Prog3: Double LinkedList(All Basic operations)

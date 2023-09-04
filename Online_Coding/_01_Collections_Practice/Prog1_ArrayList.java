@@ -15,7 +15,7 @@
 
 package Online_Coding._01_Collections_Practice;
 import java.util.*;
-public class Prog1 {
+public class Prog1_ArrayList {
 
     public static void main(String args[]){
         ArrayList<Integer> arList = new ArrayList<Integer>(20);

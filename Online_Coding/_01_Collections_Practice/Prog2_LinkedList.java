@@ -14,7 +14,7 @@
 
 package Online_Coding._01_Collections_Practice;
 import java.util.*;
-public class Prog2 {
+public class Prog2_LinkedList {
 
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList<>();

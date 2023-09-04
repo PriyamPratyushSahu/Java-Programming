@@ -12,7 +12,7 @@
 
 package Online_Coding._01_Collections_Practice;
 import java.util.*;
-public class Prog3 {
+public class Prog3_LinkedList_Basic_Operations {
 
     //Case 1
     void addElementToFront(LinkedList<Integer> ll,int val){

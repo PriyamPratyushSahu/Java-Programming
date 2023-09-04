@@ -87,7 +87,7 @@ public class Prog3_LinkedList_Basic_Operations {
     public static void main(String[] args) {
 
         LinkedList<Integer> ll = new LinkedList<>();
-        Prog3 pp = new Prog3();
+        Prog3_LinkedList_Basic_Operations pp = new Prog3_LinkedList_Basic_Operations();
         int ch,val,pos;
         Scanner sc = new Scanner(System.in);
         do{

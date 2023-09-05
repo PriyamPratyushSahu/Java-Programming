@@ -12,7 +12,7 @@ public class Prog1 {
     }
     public static void main(String args[]){
         Prog1 pp = new Prog1();
-        int randomNumber = 1 + (int) Math.round(Math.random() * 20);
+        int randomNumber = 1 + (int) Math.round(Math.random() * 10);
         System.out.format("Factorial of "+ randomNumber + " is :" + pp.factorial(randomNumber));
     }
 }

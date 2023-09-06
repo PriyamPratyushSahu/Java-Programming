@@ -27,6 +27,9 @@ public class _2_MultiLevelAbstractClass {
 
     public static void main(String args[]) {
         // -> This is wrong ------> A aa = new A();
+        // because it is trying to create an instance of an abstract class A.
+        // In Java, you cannot create instances of abstract classes directly. 
+        //Abstract classes are designed to be inherited by other classes, and they cannot be instantiated on their own.
 
         System.out.println("Case 1: A a = new C()");
         A a = new C();

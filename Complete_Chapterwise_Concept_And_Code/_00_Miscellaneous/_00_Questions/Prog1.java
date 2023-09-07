@@ -1,3 +1,4 @@
+package _00_Questions;
 /*
 Question: You are given a number N. Find the total number of setbits in the numbers from 1 to N.
 

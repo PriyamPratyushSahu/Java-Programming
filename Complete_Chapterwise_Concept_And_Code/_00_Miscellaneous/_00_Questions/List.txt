@@ -1,0 +1,5 @@
+1. Prog1: Question: You are given a number N. Find the total number of setbits in the numbers from 1 to N.
+2. Prog2: Roman number based question
+3. Prog3: Write a function to find the longest common prefix string amongst an array of strings.
+4. Prog4: Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.

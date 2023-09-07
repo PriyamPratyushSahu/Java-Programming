@@ -25,9 +25,6 @@ package _01_Bit_Manipulation;
 7. Zero-fill Right Shift (>>>):
        Similar to right shift (>>), but always fills with zeros.
        Useful for unsigned integer operations.
-8.
-9.
-10.
  */
 
 public class _01_Bit_Manipulation_Fundamentals {

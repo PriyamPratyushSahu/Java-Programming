@@ -13,7 +13,7 @@
         11.listIterator(int Index)
  */ 
 
-package Complete_Chapterwise_Concept_And_Code._01_Collections_Practice;
+package Complete_Chapterwise_Concept_And_Code._01_Collections;
 import java.util.*;
 public class Prog1_ArrayList {
 

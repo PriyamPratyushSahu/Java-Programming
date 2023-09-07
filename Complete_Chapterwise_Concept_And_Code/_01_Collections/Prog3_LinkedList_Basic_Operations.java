@@ -10,7 +10,7 @@
         8. Traverse
  */ 
 
-package Complete_Chapterwise_Concept_And_Code._01_Collections_Practice;
+package Complete_Chapterwise_Concept_And_Code._01_Collections;
 import java.util.*;
 public class Prog3_LinkedList_Basic_Operations {
 

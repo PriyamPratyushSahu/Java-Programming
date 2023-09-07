@@ -1,1 +1,2 @@
-1.
+1. Searching Algorithms
+2. Sorting Algorithms

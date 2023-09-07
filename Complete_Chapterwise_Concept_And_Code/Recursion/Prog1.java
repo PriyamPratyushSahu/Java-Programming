@@ -1,5 +1,5 @@
 //Factorial: Write a recursive function to calculate the factorial of a given positive integer.
-package Online_Coding.Recursion;
+package Complete_Chapterwise_Concept_And_Code.Recursion;
 
 
 public class Prog1 {

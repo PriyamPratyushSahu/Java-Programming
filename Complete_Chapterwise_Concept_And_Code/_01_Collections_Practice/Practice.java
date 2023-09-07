@@ -1,5 +1,5 @@
 //For practicing any sample code 
-package Online_Coding._01_Collections_Practice;
+package Complete_Chapterwise_Concept_And_Code._01_Collections_Practice;
 
 import java.util.*;
 

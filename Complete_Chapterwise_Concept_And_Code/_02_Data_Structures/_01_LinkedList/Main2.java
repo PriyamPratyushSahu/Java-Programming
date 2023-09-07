@@ -1,4 +1,4 @@
-package Online_Coding._02_Data_Structures._01_LinkedList;
+package Complete_Chapterwise_Concept_And_Code._02_Data_Structures._01_LinkedList;
 
 public class Main2 {
     public static void main(String args[]){

@@ -4,3 +4,5 @@ especially in low-level operations, embedded systems, and optimizing algorithms.
 Program list:
 
 1. _01_Bit_Manipulation_Fundamentals : List of all bit manipulation techniques
+2. _02_Prog1: You are given an array of size 2n+1, which contains n+1 distinct values, where n values are repeated twice but that 1 distinct value
+ is present once. Find that value use Bit manipulation technique

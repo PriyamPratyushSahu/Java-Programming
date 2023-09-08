@@ -31,13 +31,28 @@ public class _01_Bit_Manipulation_Fundamentals {
     public static void main(String args[]){
         int a = 5; //101
         int b = 6; //110
+
+        //1. Bitwise AND (&)
         System.out.println(a & b); //100 -> 4
+
+        //2. Bitwise OR (|)
         System.out.println(a | b); //111 -> 7
-        System.out.println(a^b);   //011 -> 3(XOR operator: Even(1) : 0 & Odd(1): 1)
+
+        //3. Bitwise XOR (^)
+        System.out.println(a ^ b); //011 -> 3
         
-        
-        //Doubt
-        System.out.println(~a); //010 -> 2
+        //4. Bitwise NOT (~)
+        System.out.println(~a); //010 -> 2 , but java stores in 2's complement so it shows -6
+        /*
+         The binary representation of 5 is 00000101. When you apply ~ to it, you get 11111010.
+         If you interpret 11111010 as an unsigned integer, it represents the decimal number 250.
+         If you interpret 11111010 as a signed integer in two's complement form, it represents the decimal number -6
+         */
+
+        //5. Left Shift (<<)
+        System.out.println(a << 2); // 10100 -> 20
+        System.out.println(a >> 2); // 1 -> 1
+        System.out.println(b >> 2); // 1 -> 1
     }
     
 }

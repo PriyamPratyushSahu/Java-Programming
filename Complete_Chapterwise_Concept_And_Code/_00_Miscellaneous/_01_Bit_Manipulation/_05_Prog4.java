@@ -47,5 +47,5 @@ So XOR from 1 to R) = 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6
 and XOR from 1 to L-1 = 1 ^ 2 (Why L-1 explained below)
 If we take XOR(L-1) ^ XOR(R) : (1 ^ 2) ^ (1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6)
 As per the property 1 ^ 2 is repeating twice, so it will cancel out, remaining : 3 ^ 4 ^ 5 ^ 6
-Which is our target. So if we take XOR(1 to R) ^ XOR(1 to (L-1)) we will get out XOR(L to R) in O(1).
+Which is our target. So if we take XOR(1 to (L-1) ^ XOR(1 to R)  we will get out XOR(L to R) in O(1).
  */

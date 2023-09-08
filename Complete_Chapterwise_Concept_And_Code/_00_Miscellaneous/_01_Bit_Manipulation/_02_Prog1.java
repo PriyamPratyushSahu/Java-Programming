@@ -21,3 +21,8 @@ public class _02_Prog1 {
  Array elements: 1 3 7 9 15 43 3 15 7 43 1 
 Unique Value: 9
  */
+
+ /*
+ Explanation
+ XOR helps to cancel out repeated values, as a result the unique value remains in the end
+ */

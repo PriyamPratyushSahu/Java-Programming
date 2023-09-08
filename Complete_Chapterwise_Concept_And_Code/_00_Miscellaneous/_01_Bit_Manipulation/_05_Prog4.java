@@ -40,7 +40,7 @@ if (n % 4 == 2) then XOR is n+1
 if (n % 4 == 3) then XOR is 0
 if (n % 4 == 0) then XOR is n
  
-Lets consider 
+Let's consider 
 L = 3
 R = 6
 So XOR from 1 to R) = 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6

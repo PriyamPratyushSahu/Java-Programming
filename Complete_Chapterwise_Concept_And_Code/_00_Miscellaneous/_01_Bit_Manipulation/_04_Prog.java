@@ -3,7 +3,7 @@
  */
 package _01_Bit_Manipulation;
 
-public class _04_Prog3 {
+public class _04_Prog {
 
     void solution_1(int n){
             if(n % 4 == 0)
@@ -16,7 +16,7 @@ public class _04_Prog3 {
                 System.out.println(0);
         }
     public static void main(String args[]){
-        _04_Prog3 pp = new _04_Prog3();
+        _04_Prog pp = new _04_Prog();
         int n = 1 + (int)(Math.round(Math.random() * 50));
         System.out.format("The XOR of 1 to %d is: ",n);
         pp.solution_1(n);

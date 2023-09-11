@@ -4,7 +4,7 @@
  */
 package _01_Bit_Manipulation;
 
-public class _05_Prog4 {
+public class _05_Prog {
     int solution_1(int n){
         if(n % 4 == 0)
             return(n);
@@ -17,7 +17,7 @@ public class _05_Prog4 {
     }
 
     public static void main(String args[]){
-        _05_Prog4 pp = new _05_Prog4();
+        _05_Prog pp = new _05_Prog();
         int L = 1 + (int)(Math.round(Math.random() * 30));
         int R = 1 + (int)(Math.round(Math.random() * 30));
         int LXOR = pp.solution_1(L-1);

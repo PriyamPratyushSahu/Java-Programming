@@ -2,7 +2,7 @@
 
 package _01_Bit_Manipulation;
 
-public class _06_Prog5 {
+public class _06_Prog {
 
     void checkEvenOdd(int n){
         if((n & 1) == 0)
@@ -12,7 +12,7 @@ public class _06_Prog5 {
     }
     
     public static void main(String args[]){
-        _06_Prog5 pp = new _06_Prog5();
+        _06_Prog pp = new _06_Prog();
 
         int n;
         n = (int)(Math.round(Math.random() * 100));

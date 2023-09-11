@@ -2,14 +2,14 @@
 //HINT: XOR(^) operator
 package _01_Bit_Manipulation;
 
-public class _03_Prog2 {
+public class _03_Prog {
 
     void display(int a, int b){
         System.out.println("a: "+ a);
         System.out.println("b: "+ b);
     }
     public static void main(String args[]){
-        _03_Prog2 pp = new _03_Prog2();
+        _03_Prog pp = new _03_Prog();
         int a,b;
         a = 1 + (int) Math.round(Math.random() * 30);
         b = 1 + (int) Math.round(Math.random() * 30);

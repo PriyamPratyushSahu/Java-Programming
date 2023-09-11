@@ -7,19 +7,19 @@ Program list:
 
 ************* XOR(^) operator based Programs ***********************
 
-2. _02_Prog1 : You are given an array of size 2n+1, which contains n+1 distinct values, where n values are repeated twice but that 1 distinct value
+2. _02_Prog : You are given an array of size 2n+1, which contains n+1 distinct values, where n values are repeated twice but that 1 distinct value
     is present once. Find that value use Bit manipulation technique
-3. _03_Prog2 : Write a program to swap two numbers without using 3rd variable 
-4. _04_Prog3 : Write a program to print XOR value of given n, starting from 1 to n, with time complexity O(1)
-5. _05_Prog4 : For a given range(L to R) Find the XOR between L to R, which is L ^ (L+1) ^ (L+2) ^ ... (R-1) ^ R
+3. _03_Prog : Write a program to swap two numbers without using 3rd variable 
+4. _04_Prog : Write a program to print XOR value of given n, starting from 1 to n, with time complexity O(1)
+5. _05_Prog : For a given range(L to R) Find the XOR between L to R, which is L ^ (L+1) ^ (L+2) ^ ... (R-1) ^ R
 
 ************* XOR(^) operator based Programs ***********************
 
 ************* AND(&) operator based Programs ***********************
 
-6. _06_Prog5 : Write a program to check a number is even or odd, using Bit Manipulation
-7. _07_Prog6 : Write a  program to Count Set Bits (Hamming Weight): Count the number of 1 bits in an integer
-8. _08_Prog7 : Write a  program to check if a Number is a Power of Two: Determine if a given integer is a power of 2
+6. _06_Prog : Write a program to check a number is even or odd, using Bit Manipulation
+7. _07_Prog : Write a  program to Count Set Bits (Hamming Weight): Count the number of 1 bits in an integer
+8. _08_Prog : Write a  program to check if a Number is a Power of Two: Determine if a given integer is a power of 2
 
 ************* AND(&) operator based Programs ***********************
 

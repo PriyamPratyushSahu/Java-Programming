@@ -1,7 +1,7 @@
 // Write a  program to Count Set Bits (Hamming Weight): Count the number of 1 bits in an integer
 package _01_Bit_Manipulation;
 
-public class _07_Prog6 {
+public class _07_Prog {
 
     int countSetBits(int num) {
         int count = 0;
@@ -13,7 +13,7 @@ public class _07_Prog6 {
     }
 
     public static void main(String args[]){
-        _07_Prog6 pp = new _07_Prog6();
+        _07_Prog pp = new _07_Prog();
         int n = (int) (Math.round(Math.random() * 100));
 
         System.out.format("Number of set bit of %d is: %d",n,pp.countSetBits(n));

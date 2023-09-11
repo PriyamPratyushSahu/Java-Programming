@@ -16,5 +16,10 @@ Program list:
 ************* XOR(^) operator based Programs ***********************
 
 ************* AND(&) operator based Programs ***********************
+
+6. _06_Prog5 : Write a program to check a number is even or odd, using Bit Manipulation
+7. _07_Prog6 : Write a  program to Count Set Bits (Hamming Weight): Count the number of 1 bits in an integer
+8. _08_Prog7 : Write a  program to check if a Number is a Power of Two: Determine if a given integer is a power of 2
+
 ************* AND(&) operator based Programs ***********************
 

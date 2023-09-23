@@ -2,6 +2,8 @@
  You are given an array of size 2n+1, which contains n+1 distinct values, where n values are repeated twice but that 1 distinct value
  is present once. Find that value use Bit manipulation technique
  HINT: XOR(^) operator
+ The XOR (exclusive or) operation is a binary logical operation that takes two binary values (0 or 1)
+ and returns 1 if the number of 1s among the inputs is odd, and 0 if it's even
  */
 package _01_Bit_Manipulation;
 

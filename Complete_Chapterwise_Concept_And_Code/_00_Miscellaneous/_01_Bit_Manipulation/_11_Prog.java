@@ -27,7 +27,7 @@ public class _11_Prog {
         }
         int XOR1 = 0;
         int XOR2 = 0;
-        System.out.print("Array elements: ");
+        
         for(int i = 0; i < arr.length; i++){
             if((arr[i] & (1 << counter)) != 0)
                 XOR1 = XOR1 ^ arr[i];
@@ -35,7 +35,7 @@ public class _11_Prog {
                XOR2 = XOR2 ^ arr[i];
                
         }
-
+        System.out.print("Array elements: ");
         for(int i : arr) System.out.print(i + " ");
 
         System.out.println("\nUnique Value 1: "+ XOR1);

@@ -23,3 +23,10 @@ Program list:
 
 ************* AND(&) operator based Programs ***********************
 
+9. _09_Prog : Check if the ith location of the number is a set or not(1 or not)
+10._10_Prog : A menu driven program
+    1. Get the Nth Bit: Get the value of the Nth bit (0 or 1) from an integer
+    2. Set the Nth Bit: Set (make it 1) the Nth bit of an integer
+    3. Clear the Nth Bit: Clear (make it 0) the Nth bit of an integer.
+    4. Update the Nth Bit: Update (set to a specific value) the Nth bit of an integer.
+    5. Extract Lowest Set Bit: Get the value of the lowest set (1) bit in an integer.

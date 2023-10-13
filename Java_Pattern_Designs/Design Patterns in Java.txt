@@ -1,0 +1,35 @@
+<<--------------Design Patterns in Java------------->>
+
+Solid Design Principles
+  a. Creational
+      1. Builder
+      2. Factories
+       2.1. Abstract Factory
+       2.2. Factory Method
+      3. Prototype
+      4. Singleton
+  b. Structural
+      1. Adapter
+      2. Bridge
+      3. Composite
+      4. Decorator
+      5. Facade
+      6. Flyweight
+      7. Proxy
+  c. Behavioral
+      1. Chain of Responsibility
+      2. Command
+      3. Interpreter
+      4. Iterator
+      5. Mediator
+      6. Memento
+      7. Null Object
+      8. Observer
+      9. State
+      10.Strategy
+      11.Template Method
+      12.Visitor
+
+1. Single Responsibility Principle(SRP)
+      
+      

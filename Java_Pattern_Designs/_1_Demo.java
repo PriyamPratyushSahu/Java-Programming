@@ -3,7 +3,6 @@ package Java_Pattern_Designs;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintStream;
 import java.net.URL;
 import java.util.ArrayList;
@@ -104,7 +103,7 @@ class _1_Demo{
         // Construct the file path based on the current user directory.
         System.out.println(filename);
         pp.saveToFile(jj, filename, true);
-        
+
         //// Launches the Notepad application with the specified file for viewing the saved journal.
         //Runtime.getRuntime().exec("notepad.exe " + filename);
     }

@@ -28,9 +28,18 @@ public class _01_Prog1 {
         key = 100;
         System.out.println("Key: " + key);
         if(pp.linearSearch(arr, key))
-            System.out.println("Key found");
+            System.out.println("Key value found");
         else
-            System.out.println("No Key didn't found");
+            System.out.println("Key value not found");
     }
     
 }
+
+/*
+ Output
+Key: 75
+Key found
+Key: 100
+Key value not found
+
+ */

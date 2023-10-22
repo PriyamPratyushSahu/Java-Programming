@@ -1,4 +1,4 @@
-package Complete_Chapterwise_Concept_And_Code._03_Algorithms._01_Searching_Algorithms;
+package Complete_Chapterwise_Concept_And_Code._03_Algorithms._02_Sorting_Algorithms;
 
 public class _01_Prog1 {
 

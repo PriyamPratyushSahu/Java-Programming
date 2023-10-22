@@ -4,7 +4,7 @@ Time Complexity: O(n)
  */
 package Complete_Chapterwise_Concept_And_Code._03_Algorithms._01_Searching_Algorithms;
 
-public class _1_Prog1 {
+public class _01_Prog1 {
 
     Boolean linearSearch(int arr[], int key){
         for(int i: arr){

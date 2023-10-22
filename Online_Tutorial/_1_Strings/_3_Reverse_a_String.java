@@ -1,5 +1,7 @@
+//Write a program to reverse a given String
+
 package _1_Strings;
-public class Reverse_a_String {
+public class _3_Reverse_a_String {
 
     public static void main(String args[]){
         String str = "abcdef123";
@@ -12,8 +14,11 @@ public class Reverse_a_String {
             revStr += str.charAt(i);
         }
         System.out.println("String after reverse: " + revStr);
-
-
-
     }
 }
+
+/*
+****************************** OUTPUT ******************************
+String before reverse: abcdef123
+String after reverse: 321fedcba
+*/

@@ -2,7 +2,7 @@
 package _1_Strings;
 import java.util.Scanner;
 
-public class CheckDateFormat {
+public class _2_CheckDateFormat {
     public static void main(String args[]) {
         Scanner pp = new Scanner(System.in);
         String dateInput;

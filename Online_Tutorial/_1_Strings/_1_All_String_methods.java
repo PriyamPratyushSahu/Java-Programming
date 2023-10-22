@@ -1,5 +1,5 @@
 package _1_Strings;
-public class All_String_methods {
+public class _1_All_String_methods {
 
     public static void main(String args[]){
         String str1 = "Priyam Pratyush Sahu";

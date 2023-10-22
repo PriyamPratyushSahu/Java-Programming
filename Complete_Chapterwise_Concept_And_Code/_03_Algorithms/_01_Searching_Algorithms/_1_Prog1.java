@@ -1,3 +1,7 @@
+/*
+Linear Search: Search each and every element of the array till you find the required element.
+Time Complexity: O(n)
+ */
 package Complete_Chapterwise_Concept_And_Code._03_Algorithms._01_Searching_Algorithms;
 
 public class _1_Prog1 {

@@ -15,7 +15,7 @@ public class _01_Prog1 {
     }
 
     public static void main(String[] args) {
-        _1_Prog1 pp = new _1_Prog1();
+        _01_Prog1 pp = new _01_Prog1();
 
         int arr[] = {1, 33, 17, 19, 75, 89, 52, 27, 63};
         int key = 75;

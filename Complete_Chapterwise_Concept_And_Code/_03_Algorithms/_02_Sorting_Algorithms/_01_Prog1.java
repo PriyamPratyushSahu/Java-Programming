@@ -1,3 +1,10 @@
+/*
+Bubble sort: Works by swapping adjacent elements in repeated passes, 
+if they are not in correctorder.
+High time complexity and not suitable for large datasets
+Time Complexity: O(n^2)
+ */
+
 package Complete_Chapterwise_Concept_And_Code._03_Algorithms._02_Sorting_Algorithms;
 
 public class _01_Prog1 {

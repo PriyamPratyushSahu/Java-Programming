@@ -1,3 +1,10 @@
+/*
+ Selection Sort: The smallest value among the unsorted elements of the array is selected in every
+pass and inserted to its appropriate position into the array.
+High time complexity and not suitable for large datasets
+Time Complexity: O(n^2)
+ */
+
 package Complete_Chapterwise_Concept_And_Code._03_Algorithms._02_Sorting_Algorithms;
 
 import java.util.Arrays;

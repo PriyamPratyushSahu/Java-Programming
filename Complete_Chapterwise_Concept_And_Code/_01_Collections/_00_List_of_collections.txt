@@ -1,0 +1,12 @@
+1.	Collections
+2.	ArrayList [List]
+3.	LinkedList [List]
+4.	PriorityQueue [Queue]
+5.	ArrayDeque [Queue]
+6.	TreeSet [Set]
+7.	HashSet [Set]
+8.	LinkedHashSet [Set]
+9.	HashMap [Map]
+10.	TreeMap [Map]
+11.	LinkedHashMap [Map]
+

@@ -4,3 +4,4 @@
 4. Prog4: Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 5. Prog5: Given a array of numbers, display all possible subsets.
+6. Prog6: Write a program in java to calculate and display the number of days remaining between two dates

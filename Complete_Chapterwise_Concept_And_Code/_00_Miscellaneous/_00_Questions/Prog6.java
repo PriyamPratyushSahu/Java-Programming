@@ -1,7 +1,11 @@
+package _00_Questions;
+
+// Importing the LocalDate class from the java.time package
 import java.time.LocalDate;
+// Importing the ChronoUnit enum from the java.time.temporal package
 import java.time.temporal.ChronoUnit;
 
-public class _01_NumberOfDays {
+public class Prog6 {
     public static void main(String[] args) {
         // Get today's date
         LocalDate currentDate = LocalDate.now();

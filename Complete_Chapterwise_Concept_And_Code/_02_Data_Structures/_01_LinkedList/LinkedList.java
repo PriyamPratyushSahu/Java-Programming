@@ -227,8 +227,7 @@ public class LinkedList {
             System.out.println("Node is empty");
     }
 
-    // partitionList(): takes an integer "x" as input and rearranges the linked list
-    // in such a way that all nodes with values less than "x" come before nodes with
+    // partitionList(): takes an integer "x" as input and rearranges the linked list in such a way that all nodes with values less than "x" come before nodes with
     // values greater than or equal to "x".----------------------------13
     void partitionList(int x) {
         if (head != null) {
@@ -259,29 +258,42 @@ public class LinkedList {
 
     // removeDuplicates(): to remove duplicate values from the linked list-------14
     public void removeDuplicates() {
-        if (head != null || head.next != null) {
-            Node current = head.next;
-            Node end = head;
-            while (current != null) {
-                Node ptr = head;
-                int flag = 0;
-                while (ptr != current) {
-                    if (ptr.value == current.value) {
-                        flag = 1;
-                        break;
-                    }
-                    ptr = ptr.next;
-                }
-                if (flag == 0) {
-                    end = ptr;
-                    // end.next = current;
-                } else
-                    end.next = current.next;
-                current = current.next;
-            }
-            printNode();
-        } else
-            System.out.println("Node is empty");
-    }
+        System.out.println(length);
+         if (length > 1) {
+             Node current = head;
+             Node end = head;
+
+             while (current != null) {
+                 // Add a null check before entering the loop
+                 if (end == null) {
+                     break;
+                 }
+
+                 Node ptr = head;
+                 int flag = 0;
+
+                 while (ptr != current) {
+                     if (ptr.value == current.value) {
+                         flag = 1;
+                         break;
+                     }
+                     ptr = ptr.next;
+                 }
+
+                 if (flag == 0) {
+                     end = ptr;
+                 } else {
+                     end.next = current.next;
+                 }
+
+                 current = current.next;
+             }
+
+             printNode();
+         } else if(length == 1)
+             System.out.println("Only one node present");
+         else
+             System.out.println("Node is empty");
+    }    
 
 }

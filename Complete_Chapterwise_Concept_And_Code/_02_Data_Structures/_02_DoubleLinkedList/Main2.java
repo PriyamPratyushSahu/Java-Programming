@@ -1,21 +1,19 @@
-package Complete_Chapterwise_Concept_And_Code._02_Data_Structures._01_LinkedList;
 
 public class Main2 {
     public static void main(String args[]){
-        LinkedList ll = new LinkedList();
-        ll.append(1);
-        ll.append(2);
-        ll.append(13);
-        ll.append(4);
-        ll.append(17);
-        ll.append(5);
-        ll.append(29);
-        ll.append(6);   
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.append(1);
+        dll.append(2);
+        dll.append(13);
+        dll.append(4);
+        dll.append(17);
+        dll.append(5);
+        dll.append(29);
+        dll.append(6);   
 
         System.out.print("Before implementing Partition List, ");
-        ll.printNode();
+        dll.printNode();
         System.out.print("After implementing Partition List, ");
-        ll.partitionList(7);
     }
 }
 

@@ -2,7 +2,6 @@ package Complete_Chapterwise_Concept_And_Code._02_Data_Structures._01_LinkedList
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
 
         LinkedList ll = new LinkedList();
         ll.append(10);
@@ -73,7 +72,7 @@ public class Main {
         //Length of Single Linked List is: 1
         
 
-        linkedList.removeDuplicates();
+        ll.removeDuplicates();
         System.out.println("Over");
     }
 }

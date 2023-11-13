@@ -148,7 +148,32 @@ public class DoubleLinkedList {
 
         } else
             System.out.println("Node is empty");
-
     }
 
+    void partitionList(int x) {
+        if (head != null) {
+            Node curNode = head;
+
+            Node dummyNode = new Node(0);
+            Node save = dummyNode;
+            Node dummyNode2 = new Node(1);
+            Node save2 = dummyNode2;
+            while (curNode != null) {
+                if (curNode.value < x) {
+                    dummyNode.next = curNode;
+                    dummyNode = curNode;
+                } else {
+                    dummyNode2.next = curNode;
+                    dummyNode2 = curNode;
+                }
+                curNode = curNode.next;
+                dummyNode2.next = null;
+            }
+
+            head = save.next;
+            dummyNode.next = save2.next;
+
+        }
+        printNode();
+    }
 }

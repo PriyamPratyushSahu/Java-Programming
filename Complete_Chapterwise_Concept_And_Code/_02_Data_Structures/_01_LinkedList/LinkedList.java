@@ -12,8 +12,8 @@ package Complete_Chapterwise_Concept_And_Code._02_Data_Structures._01_LinkedList
     8. deleteValue(): to delete the given node
     9. updateNode(): to update node value at specific position
     10.insertNode(): to insert a node at specific position
-    11. serach(): to search a given value in the linked list
-    12.reverseLinkedlist(): to reverse the linked list
+    11. search(): to search a given value in the linked list
+    12.reverseLinkedList(): to reverse the linked list
     13.partitionList(): takes an integer "x" as input and rearranges the linked list in such a way that all nodes with values less than "x" come before nodes with values greater than or equal to "x".
     14.removeDuplicates(): remove duplicate values from the node
  */
@@ -191,7 +191,7 @@ public class LinkedList {
             System.out.println("Invalid Position");
     }
 
-    // serach(), to search a given value in the linked list-----------11
+    // search(), to search a given value in the linked list-----------11
     public boolean search(int val) {
         Node current = head;
         while (current != null) {
@@ -203,7 +203,7 @@ public class LinkedList {
         return false;
     }
 
-    // reverseLinkedlist(): to reverse the linked list-----------------12
+    // reverseLinkedList(): to reverse the linked list-----------------12
     void reverseLinkedList() {
         if (head != null) {
             Node temp = head;

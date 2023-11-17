@@ -1,4 +1,3 @@
-
 /*
  List of operations:
     1. append(): insert value to linked list
@@ -11,28 +10,27 @@
     8. deleteValue(): to delete the given node
     9. updateNode(): to update node value at specific position
     10.insertNode(): to insert a node at specific position
-    11. serach(): to search a given value in the linked list
-    12.reverseLinkedlist(): to reverse the linked list
+    11. search(): to search a given value in the linked list
+    12.reverseLinkedList(): to reverse the linked list
     13.partitionList(): takes an integer "x" as input and rearranges the linked list in such a way that all nodes with values less than "x" come before nodes with values greater than or equal to "x".
     14.removeDuplicates(): remove duplicate values from the node
  */
 
-class Node {
+class DNode {
     int value;
-    Node next;
-    Node prev;
+    DNode next;
+    DNode prev;
 
-    Node(int value) {
+    DNode(int value) {
         this.value = value;
         next = null;
         prev = null;
     }
 }
+class DoubleLinkedList {
 
-public class DoubleLinkedList {
-
-    private Node head;
-    private Node tail;
+    private DNode head;
+    private DNode tail;
     private int length;
 
     DoubleLinkedList() {
@@ -43,22 +41,16 @@ public class DoubleLinkedList {
 
     // Append(), insert value to linked list-------------------------------------1
     void append(int value) {
-        Node dll = new Node(value);
+        DNode dll = new DNode(value);
 
         if (head == null) {
             head = dll;
-            tail = dll;
 
         } else {
-            Node current = head;
-            while (current.next != null) {
-                current = current.next;
-            }
-            current.next = dll;
-            dll.prev = current;
-            tail = dll;
-
+            tail.next = dll;
+            dll.prev = tail;
         }
+        tail = dll;
         length++;
     }
 
@@ -80,13 +72,13 @@ public class DoubleLinkedList {
 
     // printNode(), to display the complete list---------------------------------4
     void printNode() {
-        Node current;
+        DNode current;
         if (head != null) {
             System.out.print("List is: ");
             for (current = head; current != null; current = current.next) {
                 System.out.print(current.value + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 
@@ -134,30 +126,37 @@ public class DoubleLinkedList {
             else if (value == tail.value)
                 deleteTailValue();
             else {
-                Node ptr = head.next;
+                DNode ptr = head.next;
                 while (ptr != null) {
-                    if (ptr.value == value) {
-                        System.out.println("Deleted Node Value: " + tail.value);
+                    if(ptr == head)
+                            deleteHeadValue();
+                    else if(ptr == tail)
+                            deleteTailValue();
+                    else if (ptr.value == value) {
+                        System.out.println("Deleted Node Value: " + ptr.value);
                         (ptr.next).prev = ptr.prev;
                         (ptr.prev).next = ptr.next;
+                        length--;
+                        printNode();
+                        nodeLength();
+                        return;
                     }
+                    ptr = ptr.next;
                 }
-                printNode();
-                nodeLength();
+                System.out.println(value + " is not present in the list");
             }
-
         } else
             System.out.println("Node is empty");
     }
 
     void partitionList(int x) {
         if (head != null) {
-            Node curNode = head;
+            DNode curNode = head;
 
-            Node dummyNode = new Node(0);
-            Node save = dummyNode;
-            Node dummyNode2 = new Node(1);
-            Node save2 = dummyNode2;
+            DNode dummyNode = new DNode(0);
+            DNode save = dummyNode;
+            DNode dummyNode2 = new DNode(1);
+            DNode save2 = dummyNode2;
             while (curNode != null) {
                 if (curNode.value < x) {
                     dummyNode.next = curNode;

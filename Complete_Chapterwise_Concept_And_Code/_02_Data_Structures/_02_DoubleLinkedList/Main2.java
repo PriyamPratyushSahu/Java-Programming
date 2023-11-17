@@ -9,16 +9,16 @@ public class Main2 {
         dll.append(17);
         dll.append(5);
         dll.append(29);
-        dll.append(6);   
+        dll.append(7);   
 
-        System.out.print("Before implementing Partition List, ");
+        System.out.format("Before implementing Partition List(%d), ",6);
         dll.printNode();
-        System.out.print("After implementing Partition List, ");
+        System.out.format("After implementing Partition List(%d), ",6);
+        dll.partitionList(6);    
     }
 }
 
 /******************* OUTPUT  *******************
-Before implementing Partition List, List is: 1 2 13 4 17 5 29 6 
-After implementing Partition List, List is: 1 2 4 5 6 13 17 29 
-
+Before implementing Partition List(6), List is: 1 2 13 4 17 5 29 7 
+After implementing Partition List(6), List is: 1 2 4 5 13 17 29 7
 */

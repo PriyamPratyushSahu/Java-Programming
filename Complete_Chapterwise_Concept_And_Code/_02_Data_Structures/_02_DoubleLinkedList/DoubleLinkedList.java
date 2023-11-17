@@ -128,11 +128,7 @@ class DoubleLinkedList {
             else {
                 DNode ptr = head.next;
                 while (ptr != null) {
-                    if(ptr == head)
-                            deleteHeadValue();
-                    else if(ptr == tail)
-                            deleteTailValue();
-                    else if (ptr.value == value) {
+                    if (ptr.value == value) {
                         System.out.println("Deleted Node Value: " + ptr.value);
                         (ptr.next).prev = ptr.prev;
                         (ptr.prev).next = ptr.next;
@@ -160,17 +156,25 @@ class DoubleLinkedList {
             while (curNode != null) {
                 if (curNode.value < x) {
                     dummyNode.next = curNode;
+                    curNode.prev = dummyNode;
                     dummyNode = curNode;
                 } else {
                     dummyNode2.next = curNode;
+                    curNode.prev = dummyNode2;
                     dummyNode2 = curNode;
                 }
+                DNode temp = curNode;
                 curNode = curNode.next;
-                dummyNode2.next = null;
+                temp.next = null;
             }
 
             head = save.next;
+            head.prev = null;
             dummyNode.next = save2.next;
+            (save2.next).prev = dummyNode;
+            if(dummyNode2.value > x)
+                tail = dummyNode2;
+            
 
         }
         printNode();

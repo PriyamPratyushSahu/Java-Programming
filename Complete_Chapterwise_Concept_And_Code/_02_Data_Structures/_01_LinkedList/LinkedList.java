@@ -245,13 +245,12 @@ public class LinkedList {
                     dummyNode2.next = curNode;
                     dummyNode2 = curNode;
                 }
+                Node temp  = curNode;
                 curNode = curNode.next;
-                dummyNode2.next = null;
+                temp.next = null;
             }
-
             head = save.next;
             dummyNode.next = save2.next;
-
         }
         printNode();
     }

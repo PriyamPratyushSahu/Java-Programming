@@ -1,0 +1,1 @@
+Prog1: Write a program to take few numbers as input and display all the numbers into a catagory having same last digit.

@@ -36,7 +36,9 @@ public class StackList {
     void pop() {
         if (top != null) {
             System.out.println("Value poped: " + top.value);
+            StackNode temp = top;
             top = top.next;
+            temp.next = null;
             height--;
             if (top != null)
                 System.out.print("Updated ");

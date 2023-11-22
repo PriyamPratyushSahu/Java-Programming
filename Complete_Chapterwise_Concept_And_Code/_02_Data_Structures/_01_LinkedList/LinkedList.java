@@ -98,11 +98,11 @@ public class LinkedList {
         if (head != null) {
             length--;
             System.out.println("Deleted Node Value: " + head.value);
+            Node temp = head;
+            tail = (temp == tail)? null : tail;
             head = head.next;
-            if (head == null || head.next == null) {
-                tail = head;
-                // System.out.println("head null");
-            }
+            temp.next = null;
+            
             printNode();
             nodeLength();
         } else

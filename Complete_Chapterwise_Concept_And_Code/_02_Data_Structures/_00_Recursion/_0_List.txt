@@ -16,8 +16,6 @@ list of some easy-level recursion questions that you can practice:
 12. Sum of First N Natural Numbers: Write a recursive function to find the sum of the first N natural numbers.
 13. Print String Characters: Write a recursive function to print characters of a string one by one.
 
-Of course! Here are a few more easy-level recursion questions:
-
 14. Count Occurrences: Write a recursive function to count the occurrences of a specific element in an integer array.
 15. Check Prime: Write a recursive function to check if a given number is prime.
 16. Print Even or Odd Numbers: Write a recursive function to print even or odd numbers within a given range.
@@ -30,8 +28,6 @@ Of course! Here are a few more easy-level recursion questions:
 23. Generate Subsets: Write a recursive function to generate all possible subsets of a given set.
 24. Count Vowels: Write a recursive function to count the number of vowels in a string.
 25. Decimal to Octal: Write a recursive function to convert a decimal number to octal.
-
-These additional questions should provide you with more practice and exposure to different types of recursive problems. As always, understanding the problem-solving approach and recursion logic is key to solving these challenges effectively.
 
 Certainly! Here are a few more easy-level recursion questions:
 
@@ -53,372 +49,381 @@ These questions cover a variety of concepts and can help you build a strong foun
 
 1. Backtracking:
 
-Find all combinations of elements satisfying given constraints
-K–Partition Problem | Printing all partitions
-Find all distinct combinations of a given length with repetition allowed
-Print all combinations of numbers from 1 to n having sum n
-Print all possible solutions to N–Queens problem
-Print all possible Knight’s tours on a chessboard
-Find the shortest path in a maze
-Find the longest possible route in a matrix
-Find the path from source to destination in a matrix that satisfies given constraints
-Find the total number of unique paths in a maze from source to destination
-Magnet Puzzle
-Find all paths from the first cell to the last cell of a matrix
-Print all shortest routes in a rectangular grid
-Find all occurrences of the given string in a character matrix
-Generate a list of possible words from a character matrix
-Find all permutations of a string – C++, Java, Python
-Print all distinct subsets of a given set
+1.1. Find all combinations of elements satisfying given constraints
+1.2. K?Partition Problem | Printing all partitions
+1.3. Find all distinct combinations of a given length with repetition allowed
+1.4. Print all combinations of numbers from 1 to n having sum n
+1.5. Print all possible solutions to N?Queens problem
+1.6. Print all possible Knight?s tours on a chessboard
+1.7. Find the shortest path in a maze
+1.8. Find the longest possible route in a matrix
+1.9. Find the path from source to destination in a matrix that satisfies given constraints
+1.10. Find the total number of unique paths in a maze from source to destination
+1.11. Magnet Puzzle
+1.12. Find all paths from the first cell to the last cell of a matrix
+1.13. Print all shortest routes in a rectangular grid
+1.14. Find all occurrences of the given string in a character matrix
+1.15. Generate a list of possible words from a character matrix
+1.16. Find all permutations of a string ? C++, Java, Python
+1.17. Print all distinct subsets of a given set
 
 2. String:
 
-Check if a string is a rotated palindrome or not
-Check if a repeated subsequence is present in a string or not
-Find all interleaving of given strings
-Find all possible combinations of words formed from the mobile keypad
-Find all possible combinations by replacing given digits with characters of the corresponding list
-Find all strings of a given length containing balanced parentheses
-Find all combinations of non-overlapping substrings of a string
-Determine whether a string is a palindrome or not
-Print all combinations of phrases formed by picking words from each of the given lists
-Break a string into all possible combinations of non-overlapping substrings
-Remove adjacent duplicate characters from a string
-Find all n-digit strictly increasing numbers (Bottom-up and Top-down approach)
-Find all n-digit binary numbers having more 1’s than 0’s for any prefix
-Find all n-digit numbers with a given sum of digits
-Find all n-digit binary numbers with an equal sum of bits in their two halves
-Find all n-digit numbers with equal sum of digits at even and odd indices
-Find all lexicographic permutations of a string
-Reverse a string using recursion
-Number to word conversion
-Implement strstr function in Java
-Find the minimum number possible by doing at-most k swaps
-Determine whether a string matches with a given pattern
+2.1. Check if a string is a rotated palindrome or not
+2.2. Check if a repeated subsequence is present in a string or not
+2.3. Find all interleaving of given strings
+2.4. Find all possible combinations of words formed from the mobile keypad
+2.5. Find all possible combinations by replacing given digits with characters of the corresponding list
+2.6. Find all strings of a given length containing balanced parentheses
+2.7. Find all combinations of non-overlapping substrings of a string
+2.8. Determine whether a string is a palindrome or not
+2.9. Print all combinations of phrases formed by picking words from each of the given lists
+2.10. Break a string into all possible combinations of non-overlapping substrings
+2.11. Remove adjacent duplicate characters from a string
+2.12. Find all n-digit strictly increasing numbers (Bottom-up and Top-down approach)
+2.13. Find all n-digit binary numbers having more 1?s than 0?s for any prefix
+2.14. Find all n-digit numbers with a given sum of digits
+2.15. Find all n-digit binary numbers with an equal sum of bits in their two halves
+2.16. Find all n-digit numbers with equal sum of digits at even and odd indices
+2.17. Find all lexicographic permutations of a string
+2.18. Reverse a string using recursion
+2.19. Number to word conversion
+2.20. Implement strstr function in Java
+2.21. Find the minimum number possible by doing at-most k swaps
+2.22. Determine whether a string matches with a given pattern
 
-3.Array:
+3. Array:
 
-Replace every array element with the product of every other element
-Find all distinct combinations of a given length – I
-Find all distinct combinations of a given length – II
-Find a triplet with the given sum in an array
-Reverse every consecutive m-elements of a subarray
-Maximum Product Subset Problem
-4–Sum Problem | Quadruplets with a given sum
-Quickselect Algorithm
-Add elements of two arrays into a new array
-Print all combinations of positive integers in increasing order that sums to a given number
-3–partition problem extended | Printing all partitions
-Check if an array represents a min-heap or not
-Convert max heap to min heap in linear time
-Find the odd occurring element in an array in logarithmic time
-Generate the power set of a given set
+3.1. Replace every array element with the product of every other element
+3.2. Find all distinct combinations of a given length ? I
+3.3. Find all distinct combinations of a given length ? II
+3.4. Find a triplet with the given sum in an array
+3.5. Reverse every consecutive m-elements of a subarray
+3.6. Maximum Product Subset Problem
+3.7. 4?Sum Problem | Quadruplets with a given sum
+3.8. Quickselect Algorithm
+3.9. Add elements of two arrays into a new array
+3.10. Print all combinations of positive integers in increasing order that sums to a given number
+3.11. 3?partition problem extended | Printing all partitions
+3.12. Check if an array represents a min-heap or not
+3.13. Convert max heap to min heap in linear time
+3.14. Find the odd occurring element in an array in logarithmic time
+3.15. Generate the power set of a given set
 
 4. Matrix:
 
-Print matrix in spiral order
-Replace all occurrences of 0 that are not surrounded by 1 in a binary matrix
-Young Tableau | Insert, Search, Extract-Min, Delete, Replace
-Replace all occurrences of 0 that are surrounded by 1 in a binary matrix
-Sort an array using Young tableau
-Flood Fill Algorithm
-Find the shortest path from source to destination in a matrix that satisfies given constraints
-Find minimum passes required to convert all negative values in a matrix
-Divide & Conquer:
-Binary Search Algorithm
-Find the number of rotations in a circularly sorted array
-Find the smallest missing element from a sorted array
-Find the number of 1’s in a sorted binary array
-Find the peak element in an array
-Maximum Subarray Sum using Divide and Conquer
-Find floor and ceil of a number in a sorted array (Recursive solution)
-Find the frequency of each element in a sorted array containing duplicates
-Find the minimum and maximum element in an array using Divide and Conquer
-Longest Common Prefix (LCP) Problem
-Exponential search
-Unbounded Binary Search
-Efficiently implement power function
-Linked List:
-Clone a Linked List
-Delete a linked list
-Split a linked list into two lists where each list contains alternating elements from it
-Construct a linked list by merging alternate nodes of two given lists
-Merge two sorted linked lists into one
-Efficiently merge k sorted linked lists
-Reverse a Linked List – Recursive Solution
-Reverse every group of k nodes in a linked list
-Find k’th node from the end of a linked list
-Merge alternate nodes of two linked lists into the first list
-Delete every N nodes in a linked list after skipping M nodes
-Rearrange linked list in a specific manner in linear time
-Check if a linked list is palindrome or not
-Move the last node to the front of a linked list
-Rearrange a linked list by separating odd nodes from even ones
-Recursively check if the linked list of characters is palindrome or not
-Add a single-digit number to a linked list representing a number
-Reverse every alternate group of k nodes in a linked list
-Determine whether a linked list is palindrome or not
-Reverse a doubly linked list
-Pairwise swap adjacent nodes of a linked list
-Flatten a Linked List
-Check if a linked list of strings is palindromic
-Flatten a multilevel linked list
-Clone a linked list with random pointer
-Update random pointer for each linked list node to point to the maximum node
+4.1. Print matrix in spiral order
+4.2. Replace all occurrences of 0 that are not surrounded by 1 in a binary matrix
+4.3. Young Tableau | Insert, Search, Extract-Min, Delete, Replace
+4.4. Replace all occurrences of 0 that are surrounded by 1 in a binary matrix
+4.5. Sort an array using Young tableau
+4.6. Flood Fill Algorithm
+4.7. Find the shortest path from source to destination in a matrix that satisfies given constraints
+4.8. Find minimum passes required to convert all negative values in a matrix
+4.9. Divide & Conquer:
+4.10. Binary Search Algorithm
+4.11. Find the number of rotations in a circularly sorted array
+4.12. Find the smallest missing element from a sorted array
+4.13. Find the number of 1?s in a sorted binary array
+4.14. Find the peak element in an array
+4.15. Maximum Subarray Sum using Divide and Conquer
+4.16. Find floor and ceil of a number in a sorted array (Recursive solution)
+4.17. Find the frequency of each element in a sorted array containing duplicates
+4.18. Find the minimum and maximum element in an array using Divide and Conquer
+4.19. Longest Common Prefix (LCP) Problem
+4.20. Exponential search
+4.21. Unbounded Binary Search
+4.22. Efficiently implement power function
+4.23. Linked List:
+4.24. Clone a Linked List
+4.25. Delete a linked list
+4.26. Split a linked list into two lists where each list contains alternating elements from it
+4.27. Construct a linked list by merging alternate nodes of two given lists
+4.28. Merge two sorted linked lists into one
+4.29. Efficiently merge k sorted linked lists
+4.30. Reverse a Linked List ? Recursive Solution
+4.31. Reverse every group of k nodes in a linked list
+4.32. Find k?th node from the end of a linked list
+4.33. Merge alternate nodes of two linked lists into the first list
+4.34. Delete every N nodes in a linked list after skipping M nodes
+4.35. Rearrange linked list in a specific manner in linear time
+4.36. Check if a linked list is palindrome or not
+4.37. Move the last node to the front of a linked list
+4.38. Rearrange a linked list by separating odd nodes from even ones
+4.39. Recursively check if the linked list of characters is palindrome or not
+4.40. Add a single-digit number to a linked list representing a number
+4.41. Reverse every alternate group of k nodes in a linked list
+4.42. Determine whether a linked list is palindrome or not
+4.43. Reverse a doubly linked list
+4.44. Pairwise swap adjacent nodes of a linked list
+4.45. Flatten a Linked List
+4.46. Check if a linked list of strings is palindromic
+4.47. Flatten a multilevel linked list
+4.48. Clone a linked list with random pointer
+4.49. Update random pointer for each linked list node to point to the maximum node
 
-5.Sorting:
+5. Sorting:
 
-Insertion Sort Algorithm
-Selection Sort Algorithm
-Bubble Sort Algorithm
-Merge Sort Algorithm
-Quicksort Algorithm
-Hybrid QuickSort Algorithm
-Quicksort using Dutch National Flag Algorithm
-Quicksort algorithm using Hoare’s partitioning scheme
-Heap Sort Algorithm
-Introsort Algorithm – Overview and C++ Implementation
-Merge sort algorithm for a singly linked list
-Sort a doubly-linked list using merge sort
+5.1. Insertion Sort Algorithm
+5.2. Selection Sort Algorithm
+5.3. Bubble Sort Algorithm
+5.4. Merge Sort Algorithm
+5.5. Quicksort Algorithm
+5.6. Hybrid QuickSort Algorithm
+5.7. Quicksort using Dutch National Flag Algorithm
+5.8. Quicksort algorithm using Hoare?s partitioning scheme
+5.9. Heap Sort Algorithm
+5.10. Introsort Algorithm ? Overview and C++ Implementation
+5.11. Merge sort algorithm for a singly linked list
+5.12. Sort a doubly-linked list using merge sort
+
 Inversion count of an array
 Find surpasser count for each array element
 Water Jugs Problem
-Binary Tree:
-Inorder Tree Traversal
-Preorder Tree Traversal
-Postorder Tree Traversal
-Check if two binary trees are identical or not
-Print bottom view of a binary tree
-Print top view of a binary tree
-In-place convert a binary tree to its sum tree
-Determine whether the given binary tree nodes are cousins of each other
-Print cousins of a given node in a binary tree
-Check if a binary tree is a sum tree or not
-Combinations of words formed by replacing given numbers with corresponding alphabets
-Determine whether a binary tree is a subtree of another binary tree
-Find the diameter of a binary tree
-Check if a binary tree is symmetric or not
-Convert a binary tree to its mirror
-Determine if a binary tree can be converted to another by doing any number of swaps of children
-Find the Lowest Common Ancestor (LCA) of two nodes in a binary tree
-Print all paths from the root to leaf nodes of a binary tree
-Find ancestors of a given node in a binary tree
-Find distance between given pairs of nodes in a binary tree
-Find the diagonal sum of a binary tree
-Sink nodes containing zero to the bottom of a binary tree
-Convert a binary tree to a full tree by removing half nodes
-Truncate a binary tree to remove nodes that lie on a path having a sum less than k
-Find maximum sum root to leaf path in a binary tree
-Check if a binary tree is height-balanced or not
-Convert binary tree to Left-child right-sibling binary tree
-Print all paths from leaf to root node of a binary tree
-Find all nodes at a given distance from leaf nodes in a binary tree
-Count all subtrees having the same value of nodes in a binary tree
-Find the maximum difference between a node and its descendants in a binary tree
-Find the maximum sum path between two leaves in a binary tree
-Construct a binary tree from inorder and preorder traversal
-Construct a binary tree from inorder and postorder traversals
-Construct a binary tree from inorder and level order sequence
-Construct a full binary tree from the preorder sequence with leaf node information
-Construct a full binary tree from a preorder and postorder sequence
-Find postorder traversal of a binary tree from its inorder and preorder sequence
-Set next pointer to the inorder successor of all nodes in a binary tree
-Find preorder traversal of a binary tree from its inorder and postorder sequence
-Find difference between sum of all nodes present at odd and even levels in a binary tree
-Clone a binary tree with random pointers
-Threaded Binary Tree – Overview and Implementation
-Determine if a binary tree satisfies the height-balanced property of a red–black tree
-Construct an ancestor matrix from a binary tree
-Find all possible binary trees having the same inorder traversal
-Perform boundary traversal on a binary tree
-Check if each node of a binary tree has exactly one child
-Evaluate a Binary Expression Tree
-Construction of an expression tree
-Fix children-sum property in a binary tree
-Maximum path sum in a binary tree
-Create a mirror of an m–ary tree
-Print a two-dimensional view of a binary tree
-Construct a Cartesian tree from an inorder traversal
-Calculate the height of a binary tree with leaf nodes forming a circular doubly linked list
-Link nodes present in each level of a binary tree in the form of a linked list
-Convert a ternary tree to a doubly-linked list
-Extract leaves of a binary tree into a doubly-linked list
-Find the vertical sum of a binary tree
-In-place convert a binary tree to a doubly-linked list
-Check whether the leaf traversal of given binary trees is the same or not
-Efficiently print all nodes between two given levels in a binary tree
-Calculate the height of a binary tree
-Delete a binary tree
-Level order traversal of a binary tree
-Spiral order traversal of a binary tree
-Reverse level order traversal of a binary tree
-Print left view of a binary tree
-Find the next node at the same level as the given node in a binary tree
-Check if a binary tree is a complete binary tree or not
-Print diagonal traversal of a binary tree
-Invert Binary Tree
-Convert a binary tree into a doubly-linked list in spiral order
-Check if a binary tree is a min-heap or not
-Invert alternate levels of a perfect binary tree
-Perform vertical traversal of a binary tree
-Compute the maximum number of nodes at any level in a binary tree
-Print right view of a binary tree
-Find the minimum depth of a binary tree
-Print nodes of a binary tree in vertical order
-Binary Search Tree:
-Insertion in a BST
-Search a given key in BST
-Deletion from BST (Binary Search Tree)
-Construct a balanced BST from the given keys
-Determine whether a given binary tree is a BST or not
-Check if the given keys represent the same BSTs or not without building BST
-Find inorder predecessor for the given key in a BST
-Find the Lowest Common Ancestor (LCA) of two nodes in a BST
-Find k’th smallest and k’th largest element in a BST
-Find floor and ceil in a Binary Search Tree
-Convert a binary tree to BST by maintaining its original structure
-Remove nodes from a BST that have keys outside a valid range
-Find a pair with the given sum in a BST
-Find k’th smallest node in a Binary Search Tree (BST)
-Find inorder successor for the given key in a BST
-Fix a binary tree that is only one swap away from becoming a BST
-Update every key in a BST to contain the sum of all greater keys
-Check if a given sequence represents the preorder traversal of a BST
-Build a Binary Search Tree from a postorder sequence
-Build a Binary Search Tree from a preorder sequence
-Count subtrees in a BST whose nodes lie within a given range
-Find the size of the largest BST in a binary tree
-Print complete Binary Search Tree (BST) in increasing order
-Print binary tree structure with its contents in C++
-Treap Data Structure
-Implementation of Treap Data Structure (Insert, Search, and Delete)
-Merge two BSTs into a doubly-linked list in sorted order
-Construct a height-balanced BST from an unbalanced BST
-Construct a height-balanced BST from a sorted doubly linked list
-Find a triplet with the given sum in a BST
-Convert a Binary Search Tree into a Min Heap
-Dynamic Programming:
-Longest Common Subsequence Problem
-Longest Common Subsequence of k–sequences
-Longest Common Subsequence | Finding all LCS
-Longest Palindromic Subsequence using Dynamic Programming
-Longest Repeated Subsequence Problem
-Implement Diff Utility
-Shortest Common Supersequence Problem
-Shortest Common Supersequence | Finding all SCS
-Shortest Common Supersequence Problem using LCS
-Longest Increasing Subsequence using Dynamic Programming
-Longest Decreasing Subsequence Problem
-Maximum Sum Increasing Subsequence Problem
-The Levenshtein distance (Edit distance) Problem
-Find the size of the largest square submatrix of 1’s present in a binary matrix
-Matrix Chain Multiplication using Dynamic Programming
-Find minimum cost to reach the last cell of a matrix from its first cell
-Find the longest sequence formed by adjacent numbers in the matrix
-Count the number of paths in a matrix with a given cost to reach the destination cell
-0–1 Knapsack Problem
-Partition Problem using Dynamic Programming
-Subset Sum Problem – Dynamic Programming Solution
-3–Partition Problem
-Minimum Sum Partition Problem
-Rod Cutting Problem
-Maximum Product Rod Cutting
-Coin change-making problem
-Coin Change Problem
-Total possible solutions to a linear equation of k variables
-Longest Alternating Subsequence Problem
-Count the number of times a pattern appears in a given string as a subsequence
-Collect maximum points in a matrix by satisfying given constraints
-Find all N-digit binary strings without any consecutive 1’s
-Count total possible combinations of n-digit numbers in a mobile keypad
-Word Break Problem – Dynamic Programming
-Check if a string is k–palindrome or not
-Find total ways to achieve a given sum with n throws of dice having k faces
-Wildcard Pattern Matching
-Find the number of ways to fill an N × 4 matrix with 1 × 4 tiles
-Ways to reach the bottom-right corner of a matrix with exactly k turns allowed
-Weighted Interval Scheduling Problem
-Find total ways to reach n’th stair with at-most m steps
-Find total ways to reach the n’th stair from the bottom
-Find the minimum number of deletions required to convert a string into a palindrome
-Pots of Gold Game Problem using Dynamic Programming
-Find minimum cuts needed for the palindromic partition of a string
-Find minimum jumps required to reach the destination
-Find the probability that a person is alive after taking n steps on an island
-Longest Increasing Subsequence using LCS
-Count all paths in a matrix from the first cell to the last cell
-Check if a string matches with the given wildcard pattern
-Check if a string is interleaving of two other given strings
-Find all employees who directly or indirectly reports to a manager
-Find optimal cost to construct a binary search tree
-Find the maximum sum of a subsequence with no adjacent elements
-Minimum-weight triangulation of a convex polygon
-Find maximum profit that can be earned by conditionally selling stocks
-Program to find n’th Fibonacci number
-Count decodings of a given sequence of digits
-Hat Check Problem – Counting Derangements
-Maximum Independent Set Problem
-Find the minimum number of squares that sum to a given number
-Truncate an integer array such that 2×min becomes more than max
-Find ways to calculate a target from elements of the specified array
-Find the length of the longest path in a matrix with consecutive characters
-Collect maximum value of coins in a matrix
-Single-Source Shortest Paths – Bellman–Ford Algorithm
-All-Pairs Shortest Paths – Floyd Warshall Algorithm
-Programming Puzzles:
-Implement power function without using multiplication and division operators
-Print all numbers between 1 to N without using a semicolon
-Determine the if condition to print the specific output
-Tower of Hanoi Problem
-Print all numbers between 1 to N without using any loop | 4 methods
-Multiply two numbers without using a multiplication operator or loops
-Find minimum number without using conditional statement or ternary operator
-Perform division of two numbers without using division operator
-Find maximum number without using conditional statement or ternary operator
-Graphs:
-Depth First Search (DFS)
-Breadth-First Search (BFS)
-Arrival and departure time of vertices in DFS
-Determine whether a graph is Bipartite using DFS
-Topological Sort Algorithm for DAG
-Transitive closure of a graph
-Determine whether an undirected graph is a tree (Acyclic Connected Graph)
-2–Edge Connectivity in a graph
-Check if a digraph is a DAG (Directed Acyclic Graph) or not
-Disjoint–Set Data Structure (Union–Find Algorithm)
-Check if a graph is strongly connected or not
-Check if a graph is strongly connected or not using one DFS Traversal
-Union–Find Algorithm for cycle detection in a graph
-Find the cost of the shortest path in DAG using one pass of Bellman–Ford
-Find all Possible Topological Orderings of a DAG
-Find correct order of alphabets in a given dictionary of ancient origin
-Find the longest path in a Directed Acyclic Graph (DAG)
-Print all k–colorable configurations of a graph (Vertex coloring of a graph)
-Print all Hamiltonian paths present in a graph
-Kruskal’s Algorithm for finding Minimum Spanning Tree
-Eulerian cycle in directed graphs
-Find root vertex of a graph
-Check whether an undirected graph is Eulerian
-Check if a set of words can be rearranged to form a circle
-Find itinerary from the given list of departure and arrival airports
-Check if an undirected graph contains a cycle or not
-Compute the least cost path in a weighted digraph using BFS
-Find the path between given vertices in a directed graph
-Stack:
-Recursive solution to sort a stack
-Reverse a stack using recursion
-Reverse a string using a stack data structure
-Reverse an array in C++
-Find all binary strings that can be formed from a wildcard pattern
-Implement a stack using the queue data structure
-Implement a queue using the stack data structure
-Trie:
-Lexicographic sorting of a given set of keys
-Find the maximum occurring word in a given set of strings
-Find first k maximum occurring words in a given set of strings
-Word Break Problem – Using Trie Data Structure
-Find all words matching a pattern in the given dictionary
-Find the shortest unique prefix for every word in an array
-Rate this post
 
+6. Binary Tree:
 
+6.1. Inorder Tree Traversal
+6.2. Preorder Tree Traversal
+6.3. Postorder Tree Traversal
+6.4. Check if two binary trees are identical or not
+6.5. Print bottom view of a binary tree
+6.6. Print top view of a binary tree
+6.7. In-place convert a binary tree to its sum tree
+6.8. Determine whether the given binary tree nodes are cousins of each other
+6.9. Print cousins of a given node in a binary tree
+6.10. Check if a binary tree is a sum tree or not
+6.11. Combinations of words formed by replacing given numbers with corresponding alphabets
+6.12. Determine whether a binary tree is a subtree of another binary tree
+6.13. Find the diameter of a binary tree
+6.14. Check if a binary tree is symmetric or not
+6.15. Convert a binary tree to its mirror
+6.16. Determine if a binary tree can be converted to another by doing any number of swaps of children
+6.17. Find the Lowest Common Ancestor (LCA) of two nodes in a binary tree
+6.18. Print all paths from the root to leaf nodes of a binary tree
+6.19. Find ancestors of a given node in a binary tree
+6.20. Find distance between given pairs of nodes in a binary tree
+6.21. Find the diagonal sum of a binary tree
+6.22. Sink nodes containing zero to the bottom of a binary tree
+6.23. Convert a binary tree to a full tree by removing half nodes
+6.24. Truncate a binary tree to remove nodes that lie on a path having a sum less than k
+6.25. Find maximum sum root to leaf path in a binary tree
+6.26. Check if a binary tree is height-balanced or not
+6.27. Convert binary tree to Left-child right-sibling binary tree
+6.28. Print all paths from leaf to root node of a binary tree
+6.29. Find all nodes at a given distance from leaf nodes in a binary tree
+6.30. Count all subtrees having the same value of nodes in a binary tree
+6.31. Find the maximum difference between a node and its descendants in a binary tree
+6.32. Find the maximum sum path between two leaves in a binary tree
+6.33. Construct a binary tree from inorder and preorder traversal
+6.34. Construct a binary tree from inorder and postorder traversals
+6.35. Construct a binary tree from inorder and level order sequence
+6.36. Construct a full binary tree from the preorder sequence with leaf node information
+6.37. Construct a full binary tree from a preorder and postorder sequence
+6.38. Find postorder traversal of a binary tree from its inorder and preorder sequence
+6.39. Set next pointer to the inorder successor of all nodes in a binary tree
+6.40. Find preorder traversal of a binary tree from its inorder and postorder sequence
+6.41. Find difference between sum of all nodes present at odd and even levels in a binary tree
+6.42. Clone a binary tree with random pointers
+6.43. Threaded Binary Tree ? Overview and Implementation
+6.44. Determine if a binary tree satisfies the height-balanced property of a red?black tree
+6.45. Construct an ancestor matrix from a binary tree
+6.46. Find all possible binary trees having the same inorder traversal
+6.47. Perform boundary traversal on a binary tree
+6.48. Check if each node of a binary tree has exactly one child
+6.49. Evaluate a Binary Expression Tree
+6.50. Construction of an expression tree
+6.51. Fix children-sum property in a binary tree
+6.52. Maximum path sum in a binary tree
+6.53. Create a mirror of an m?ary tree
+6.54. Print a two-dimensional view of a binary tree
+6.55. Construct a Cartesian tree from an inorder traversal
+6.56. Calculate the height of a binary tree with leaf nodes forming a circular doubly linked list
+6.57. Link nodes present in each level of a binary tree in the form of a linked list
+6.58. Convert a ternary tree to a doubly-linked list
+6.59. Extract leaves of a binary tree into a doubly-linked list
+6.60. Find the vertical sum of a binary tree
+6.61. In-place convert a binary tree to a doubly-linked list
+6.62. Check whether the leaf traversal of given binary trees is the same or not
+6.63. Efficiently print all nodes between two given levels in a binary tree
+6.64. Calculate the height of a binary tree
+6.65. Delete a binary tree
+6.66. Level order traversal of a binary tree
+6.67. Spiral order traversal of a binary tree
+6.68. Reverse level order traversal of a binary tree
+6.69. Print left view of a binary tree
+6.70. Find the next node at the same level as the given node in a binary tree
+6.71. Check if a binary tree is a complete binary tree or not
+6.72. Print diagonal traversal of a binary tree
+6.73. Invert Binary Tree
+6.74. Convert a binary tree into a doubly-linked list in spiral order
+6.75. Check if a binary tree is a min-heap or not
+6.76. Invert alternate levels of a perfect binary tree
+6.77. Perform vertical traversal of a binary tree
+6.78. Compute the maximum number of nodes at any level in a binary tree
+6.79. Print right view of a binary tree
+6.80. Find the minimum depth of a binary tree
+6.81. Print nodes of a binary tree in vertical order
+
+7. Binary Search Tree:
+
+7.1. Insertion in a BST
+7.2. Search a given key in BST
+7.3. Deletion from BST (Binary Search Tree)
+7.4. Construct a balanced BST from the given keys
+7.5. Determine whether a given binary tree is a BST or not
+7.6. Check if the given keys represent the same BSTs or not without building BST
+7.7. Find inorder predecessor for the given key in a BST
+7.8. Find the Lowest Common Ancestor (LCA) of two nodes in a BST
+7.9. Find k?th smallest and k?th largest element in a BST
+7.10. Find floor and ceil in a Binary Search Tree
+7.11. Convert a binary tree to BST by maintaining its original structure
+7.12. Remove nodes from a BST that have keys outside a valid range
+7.13. Find a pair with the given sum in a BST
+7.14. Find k?th smallest node in a Binary Search Tree (BST)
+7.15. Find inorder successor for the given key in a BST
+7.16. Fix a binary tree that is only one swap away from becoming a BST
+7.17. Update every key in a BST to contain the sum of all greater keys
+7.18. Check if a given sequence represents the preorder traversal of a BST
+7.19. Build a Binary Search Tree from a postorder sequence
+7.20. Build a Binary Search Tree from a preorder sequence
+7.21. Count subtrees in a BST whose nodes lie within a given range
+7.22. Find the size of the largest BST in a binary tree
+7.23. Print complete Binary Search Tree (BST) in increasing order
+7.24. Print binary tree structure with its contents in C++
+7.25. Treap Data Structure
+7.26. Implementation of Treap Data Structure (Insert, Search, and Delete)
+7.27. Merge two BSTs into a doubly-linked list in sorted order
+7.28. Construct a height-balanced BST from an unbalanced BST
+7.29. Construct a height-balanced BST from a sorted doubly linked list
+7.30. Find a triplet with the given sum in a BST
+7.31. Convert a Binary Search Tree into a Min Heap
+
+8. Dynamic Programming:
+
+8.1. Longest Common Subsequence Problem
+8.2. Longest Common Subsequence of k?sequences
+8.3. Longest Common Subsequence | Finding all LCS
+8.4. Longest Palindromic Subsequence using Dynamic Programming
+8.5. Longest Repeated Subsequence Problem
+8.6. Implement Diff Utility
+8.7. Shortest Common Supersequence Problem
+8.8. Shortest Common Supersequence | Finding all SCS
+8.9. Shortest Common Supersequence Problem using LCS
+8.10. Longest Increasing Subsequence using Dynamic Programming
+8.11. Longest Decreasing Subsequence Problem
+8.12. Maximum Sum Increasing Subsequence Problem
+8.13. The Levenshtein distance (Edit distance) Problem
+8.14. Find the size of the largest square submatrix of 1?s present in a binary matrix
+8.15. Matrix Chain Multiplication using Dynamic Programming
+8.16. Find minimum cost to reach the last cell of a matrix from its first cell
+8.17. Find the longest sequence formed by adjacent numbers in the matrix
+8.18. Count the number of paths in a matrix with a given cost to reach the destination cell
+8.19. 0?1 Knapsack Problem
+8.20. Partition Problem using Dynamic Programming
+8.21. Subset Sum Problem ? Dynamic Programming Solution
+8.22. 3?Partition Problem
+8.23. Minimum Sum Partition Problem
+8.24. Rod Cutting Problem
+8.25. Maximum Product Rod Cutting
+8.26. Coin change-making problem
+8.27. Coin Change Problem
+8.28. Total possible solutions to a linear equation of k variables
+8.29. Longest Alternating Subsequence Problem
+8.30. Count the number of times a pattern appears in a given string as a subsequence
+8.31. Collect maximum points in a matrix by satisfying given constraints
+8.32. Find all N-digit binary strings without any consecutive 1?s
+8.33. Count total possible combinations of n-digit numbers in a mobile keypad
+8.34. Word Break Problem ? Dynamic Programming
+8.35. Check if a string is k?palindrome or not
+8.36. Find total ways to achieve a given sum with n throws of dice having k faces
+8.37. Wildcard Pattern Matching
+8.38. Find the number of ways to fill an N ? 4 matrix with 1 ? 4 tiles
+8.39. Ways to reach the bottom-right corner of a matrix with exactly k turns allowed
+8.40. Weighted Interval Scheduling Problem
+8.41. Find total ways to reach n?th stair with at-most m steps
+8.42. Find total ways to reach the n?th stair from the bottom
+8.43. Find the minimum number of deletions required to convert a string into a palindrome
+8.44. Pots of Gold Game Problem using Dynamic Programming
+8.45. Find minimum cuts needed for the palindromic partition of a string
+8.46. Find minimum jumps required to reach the destination
+8.47. Find the probability that a person is alive after taking n steps on an island
+8.48. Longest Increasing Subsequence using LCS
+8.49. Count all paths in a matrix from the first cell to the last cell
+8.50. Check if a string matches with the given wildcard pattern
+8.51. Check if a string is interleaving of two other given strings
+8.52. Find all employees who directly or indirectly reports to a manager
+8.53. Find optimal cost to construct a binary search tree
+8.54. Find the maximum sum of a subsequence with no adjacent elements
+8.55. Minimum-weight triangulation of a convex polygon
+8.56. Find maximum profit that can be earned by conditionally selling stocks
+8.57. Program to find n?th Fibonacci number
+8.58. Count decodings of a given sequence of digits
+8.59. Hat Check Problem ? Counting Derangements
+8.60. Maximum Independent Set Problem
+8.61. Find the minimum number of squares that sum to a given number
+8.62. Truncate an integer array such that 2?min becomes more than max
+8.63. Find ways to calculate a target from elements of the specified array
+8.64. Find the length of the longest path in a matrix with consecutive characters
+8.65. Collect maximum value of coins in a matrix
+8.66. Single-Source Shortest Paths ? Bellman?Ford Algorithm
+8.67. All-Pairs Shortest Paths ? Floyd Warshall Algorithm
+
+9. Programming Puzzles:
+
+9.1. Implement power function without using multiplication and division operators
+9.2. Print all numbers between 1 to N without using a semicolon
+9.3. Determine the if condition to print the specific output
+9.4. Tower of Hanoi Problem
+9.5. Print all numbers between 1 to N without using any loop | 4 methods
+9.6. Multiply two numbers without using a multiplication operator or loops
+9.7. Find minimum number without using conditional statement or ternary operator
+9.8. Perform division of two numbers without using division operator
+9.9. Find maximum number without using conditional statement or ternary operator
+9.10. Graphs:
+9.11. Depth First Search (DFS)
+9.12. Breadth-First Search (BFS)
+9.13. Arrival and departure time of vertices in DFS
+9.14. Determine whether a graph is Bipartite using DFS
+9.15. Topological Sort Algorithm for DAG
+9.16. Transitive closure of a graph
+9.17. Determine whether an undirected graph is a tree (Acyclic Connected Graph)
+9.18. 2?Edge Connectivity in a graph
+9.19. Check if a digraph is a DAG (Directed Acyclic Graph) or not
+9.20. Disjoint?Set Data Structure (Union?Find Algorithm)
+9.21. Check if a graph is strongly connected or not
+9.22. Check if a graph is strongly connected or not using one DFS Traversal
+9.23. Union?Find Algorithm for cycle detection in a graph
+9.24. Find the cost of the shortest path in DAG using one pass of Bellman?Ford
+9.25. Find all Possible Topological Orderings of a DAG
+9.26. Find correct order of alphabets in a given dictionary of ancient origin
+9.27. Find the longest path in a Directed Acyclic Graph (DAG)
+9.28. Print all k?colorable configurations of a graph (Vertex coloring of a graph)
+9.29. Print all Hamiltonian paths present in a graph
+9.30. Kruskal?s Algorithm for finding Minimum Spanning Tree
+9.31. Eulerian cycle in directed graphs
+9.32. Find root vertex of a graph
+9.33. Check whether an undirected graph is Eulerian
+9.34. Check if a set of words can be rearranged to form a circle
+9.35. Find itinerary from the given list of departure and arrival airports
+9.36. Check if an undirected graph contains a cycle or not
+9.37. Compute the least cost path in a weighted digraph using BFS
+9.38. Find the path between given vertices in a directed graph
+
+10.Stack:
+
+10.1. Recursive solution to sort a stack
+10.2. Reverse a stack using recursion
+10.3. Reverse a string using a stack data structure
+10.4. Reverse an array
+10.5. Find all binary strings that can be formed from a wildcard pattern
+10.6. Implement a stack using the queue data structure
+10.7. Implement a queue using the stack data structure
+
+11. Trie:
+11.1. Lexicographic sorting of a given set of keys
+11.2. Find the maximum occurring word in a given set of strings
+11.3. Find first k maximum occurring words in a given set of strings
+11.4. Word Break Problem ? Using Trie Data Structure
+11.5. Find all words matching a pattern in the given dictionary
+11.6. Find the shortest unique prefix for every word in an array

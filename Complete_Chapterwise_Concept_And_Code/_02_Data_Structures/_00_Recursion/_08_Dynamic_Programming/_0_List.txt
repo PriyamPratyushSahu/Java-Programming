@@ -1,0 +1,69 @@
+8. Dynamic Programming:
+
+8.1. Longest Common Subsequence Problem
+8.2. Longest Common Subsequence of k?sequences
+8.3. Longest Common Subsequence | Finding all LCS
+8.4. Longest Palindromic Subsequence using Dynamic Programming
+8.5. Longest Repeated Subsequence Problem
+8.6. Implement Diff Utility
+8.7. Shortest Common Supersequence Problem
+8.8. Shortest Common Supersequence | Finding all SCS
+8.9. Shortest Common Supersequence Problem using LCS
+8.10. Longest Increasing Subsequence using Dynamic Programming
+8.11. Longest Decreasing Subsequence Problem
+8.12. Maximum Sum Increasing Subsequence Problem
+8.13. The Levenshtein distance (Edit distance) Problem
+8.14. Find the size of the largest square submatrix of 1?s present in a binary matrix
+8.15. Matrix Chain Multiplication using Dynamic Programming
+8.16. Find minimum cost to reach the last cell of a matrix from its first cell
+8.17. Find the longest sequence formed by adjacent numbers in the matrix
+8.18. Count the number of paths in a matrix with a given cost to reach the destination cell
+8.19. 0?1 Knapsack Problem
+8.20. Partition Problem using Dynamic Programming
+8.21. Subset Sum Problem ? Dynamic Programming Solution
+8.22. 3?Partition Problem
+8.23. Minimum Sum Partition Problem
+8.24. Rod Cutting Problem
+8.25. Maximum Product Rod Cutting
+8.26. Coin change-making problem
+8.27. Coin Change Problem
+8.28. Total possible solutions to a linear equation of k variables
+8.29. Longest Alternating Subsequence Problem
+8.30. Count the number of times a pattern appears in a given string as a subsequence
+8.31. Collect maximum points in a matrix by satisfying given constraints
+8.32. Find all N-digit binary strings without any consecutive 1?s
+8.33. Count total possible combinations of n-digit numbers in a mobile keypad
+8.34. Word Break Problem ? Dynamic Programming
+8.35. Check if a string is k?palindrome or not
+8.36. Find total ways to achieve a given sum with n throws of dice having k faces
+8.37. Wildcard Pattern Matching
+8.38. Find the number of ways to fill an N ? 4 matrix with 1 ? 4 tiles
+8.39. Ways to reach the bottom-right corner of a matrix with exactly k turns allowed
+8.40. Weighted Interval Scheduling Problem
+8.41. Find total ways to reach n?th stair with at-most m steps
+8.42. Find total ways to reach the n?th stair from the bottom
+8.43. Find the minimum number of deletions required to convert a string into a palindrome
+8.44. Pots of Gold Game Problem using Dynamic Programming
+8.45. Find minimum cuts needed for the palindromic partition of a string
+8.46. Find minimum jumps required to reach the destination
+8.47. Find the probability that a person is alive after taking n steps on an island
+8.48. Longest Increasing Subsequence using LCS
+8.49. Count all paths in a matrix from the first cell to the last cell
+8.50. Check if a string matches with the given wildcard pattern
+8.51. Check if a string is interleaving of two other given strings
+8.52. Find all employees who directly or indirectly reports to a manager
+8.53. Find optimal cost to construct a binary search tree
+8.54. Find the maximum sum of a subsequence with no adjacent elements
+8.55. Minimum-weight triangulation of a convex polygon
+8.56. Find maximum profit that can be earned by conditionally selling stocks
+8.57. Program to find n?th Fibonacci number
+8.58. Count decodings of a given sequence of digits
+8.59. Hat Check Problem ? Counting Derangements
+8.60. Maximum Independent Set Problem
+8.61. Find the minimum number of squares that sum to a given number
+8.62. Truncate an integer array such that 2?min becomes more than max
+8.63. Find ways to calculate a target from elements of the specified array
+8.64. Find the length of the longest path in a matrix with consecutive characters
+8.65. Collect maximum value of coins in a matrix
+8.66. Single-Source Shortest Paths ? Bellman?Ford Algorithm
+8.67. All-Pairs Shortest Paths ? Floyd Warshall Algorithm

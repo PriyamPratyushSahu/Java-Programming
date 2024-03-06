@@ -1,0 +1,8 @@
+11. Trie:
+
+11.1. Lexicographic sorting of a given set of keys
+11.2. Find the maximum occurring word in a given set of strings
+11.3. Find first k maximum occurring words in a given set of strings
+11.4. Word Break Problem ? Using Trie Data Structure
+11.5. Find all words matching a pattern in the given dictionary
+11.6. Find the shortest unique prefix for every word in an array

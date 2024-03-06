@@ -1,0 +1,9 @@
+10.Stack:
+
+10.1. Recursive solution to sort a stack
+10.2. Reverse a stack using recursion
+10.3. Reverse a string using a stack data structure
+10.4. Reverse an array
+10.5. Find all binary strings that can be formed from a wildcard pattern
+10.6. Implement a stack using the queue data structure
+10.7. Implement a queue using the stack data structure

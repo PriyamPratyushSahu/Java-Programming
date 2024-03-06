@@ -1,0 +1,17 @@
+3. Array:
+
+3.1. Replace every array element with the product of every other element
+3.2. Find all distinct combinations of a given length ? I
+3.3. Find all distinct combinations of a given length ? II
+3.4. Find a triplet with the given sum in an array
+3.5. Reverse every consecutive m-elements of a subarray
+3.6. Maximum Product Subset Problem
+3.7. 4?Sum Problem | Quadruplets with a given sum
+3.8. Quickselect Algorithm
+3.9. Add elements of two arrays into a new array
+3.10. Print all combinations of positive integers in increasing order that sums to a given number
+3.11. 3?partition problem extended | Printing all partitions
+3.12. Check if an array represents a min-heap or not
+3.13. Convert max heap to min heap in linear time
+3.14. Find the odd occurring element in an array in logarithmic time
+3.15. Generate the power set of a given set

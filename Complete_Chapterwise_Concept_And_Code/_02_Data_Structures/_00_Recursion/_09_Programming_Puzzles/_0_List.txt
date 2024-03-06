@@ -1,0 +1,40 @@
+9. Programming Puzzles:
+
+9.1. Implement power function without using multiplication and division operators
+9.2. Print all numbers between 1 to N without using a semicolon
+9.3. Determine the if condition to print the specific output
+9.4. Tower of Hanoi Problem
+9.5. Print all numbers between 1 to N without using any loop | 4 methods
+9.6. Multiply two numbers without using a multiplication operator or loops
+9.7. Find minimum number without using conditional statement or ternary operator
+9.8. Perform division of two numbers without using division operator
+9.9. Find maximum number without using conditional statement or ternary operator
+9.10. Graphs:
+9.11. Depth First Search (DFS)
+9.12. Breadth-First Search (BFS)
+9.13. Arrival and departure time of vertices in DFS
+9.14. Determine whether a graph is Bipartite using DFS
+9.15. Topological Sort Algorithm for DAG
+9.16. Transitive closure of a graph
+9.17. Determine whether an undirected graph is a tree (Acyclic Connected Graph)
+9.18. 2?Edge Connectivity in a graph
+9.19. Check if a digraph is a DAG (Directed Acyclic Graph) or not
+9.20. Disjoint?Set Data Structure (Union?Find Algorithm)
+9.21. Check if a graph is strongly connected or not
+9.22. Check if a graph is strongly connected or not using one DFS Traversal
+9.23. Union?Find Algorithm for cycle detection in a graph
+9.24. Find the cost of the shortest path in DAG using one pass of Bellman?Ford
+9.25. Find all Possible Topological Orderings of a DAG
+9.26. Find correct order of alphabets in a given dictionary of ancient origin
+9.27. Find the longest path in a Directed Acyclic Graph (DAG)
+9.28. Print all k?colorable configurations of a graph (Vertex coloring of a graph)
+9.29. Print all Hamiltonian paths present in a graph
+9.30. Kruskal?s Algorithm for finding Minimum Spanning Tree
+9.31. Eulerian cycle in directed graphs
+9.32. Find root vertex of a graph
+9.33. Check whether an undirected graph is Eulerian
+9.34. Check if a set of words can be rearranged to form a circle
+9.35. Find itinerary from the given list of departure and arrival airports
+9.36. Check if an undirected graph contains a cycle or not
+9.37. Compute the least cost path in a weighted digraph using BFS
+9.38. Find the path between given vertices in a directed graph

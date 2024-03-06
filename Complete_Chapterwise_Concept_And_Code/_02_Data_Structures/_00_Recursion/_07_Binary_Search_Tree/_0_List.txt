@@ -1,0 +1,33 @@
+7. Binary Search Tree:
+
+7.1. Insertion in a BST
+7.2. Search a given key in BST
+7.3. Deletion from BST (Binary Search Tree)
+7.4. Construct a balanced BST from the given keys
+7.5. Determine whether a given binary tree is a BST or not
+7.6. Check if the given keys represent the same BSTs or not without building BST
+7.7. Find inorder predecessor for the given key in a BST
+7.8. Find the Lowest Common Ancestor (LCA) of two nodes in a BST
+7.9. Find k?th smallest and k?th largest element in a BST
+7.10. Find floor and ceil in a Binary Search Tree
+7.11. Convert a binary tree to BST by maintaining its original structure
+7.12. Remove nodes from a BST that have keys outside a valid range
+7.13. Find a pair with the given sum in a BST
+7.14. Find k?th smallest node in a Binary Search Tree (BST)
+7.15. Find inorder successor for the given key in a BST
+7.16. Fix a binary tree that is only one swap away from becoming a BST
+7.17. Update every key in a BST to contain the sum of all greater keys
+7.18. Check if a given sequence represents the preorder traversal of a BST
+7.19. Build a Binary Search Tree from a postorder sequence
+7.20. Build a Binary Search Tree from a preorder sequence
+7.21. Count subtrees in a BST whose nodes lie within a given range
+7.22. Find the size of the largest BST in a binary tree
+7.23. Print complete Binary Search Tree (BST) in increasing order
+7.24. Print binary tree structure with its contents in C++
+7.25. Treap Data Structure
+7.26. Implementation of Treap Data Structure (Insert, Search, and Delete)
+7.27. Merge two BSTs into a doubly-linked list in sorted order
+7.28. Construct a height-balanced BST from an unbalanced BST
+7.29. Construct a height-balanced BST from a sorted doubly linked list
+7.30. Find a triplet with the given sum in a BST
+7.31. Convert a Binary Search Tree into a Min Heap

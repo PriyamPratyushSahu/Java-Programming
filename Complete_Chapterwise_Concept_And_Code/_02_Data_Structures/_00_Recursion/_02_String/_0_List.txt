@@ -1,0 +1,24 @@
+2. String:
+
+2.1. Check if a string is a rotated palindrome or not
+2.2. Check if a repeated subsequence is present in a string or not
+2.3. Find all interleaving of given strings
+2.4. Find all possible combinations of words formed from the mobile keypad
+2.5. Find all possible combinations by replacing given digits with characters of the corresponding list
+2.6. Find all strings of a given length containing balanced parentheses
+2.7. Find all combinations of non-overlapping substrings of a string
+2.8. Determine whether a string is a palindrome or not
+2.9. Print all combinations of phrases formed by picking words from each of the given lists
+2.10. Break a string into all possible combinations of non-overlapping substrings
+2.11. Remove adjacent duplicate characters from a string
+2.12. Find all n-digit strictly increasing numbers (Bottom-up and Top-down approach)
+2.13. Find all n-digit binary numbers having more 1?s than 0?s for any prefix
+2.14. Find all n-digit numbers with a given sum of digits
+2.15. Find all n-digit binary numbers with an equal sum of bits in their two halves
+2.16. Find all n-digit numbers with equal sum of digits at even and odd indices
+2.17. Find all lexicographic permutations of a string
+2.18. Reverse a string using recursion
+2.19. Number to word conversion
+2.20. Implement strstr function in Java
+2.21. Find the minimum number possible by doing at-most k swaps
+2.22. Determine whether a string matches with a given pattern

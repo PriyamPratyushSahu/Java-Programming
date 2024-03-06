@@ -1,0 +1,51 @@
+4. Matrix:
+
+4.1. Print matrix in spiral order
+4.2. Replace all occurrences of 0 that are not surrounded by 1 in a binary matrix
+4.3. Young Tableau | Insert, Search, Extract-Min, Delete, Replace
+4.4. Replace all occurrences of 0 that are surrounded by 1 in a binary matrix
+4.5. Sort an array using Young tableau
+4.6. Flood Fill Algorithm
+4.7. Find the shortest path from source to destination in a matrix that satisfies given constraints
+4.8. Find minimum passes required to convert all negative values in a matrix
+4.9. Divide & Conquer:
+4.10. Binary Search Algorithm
+4.11. Find the number of rotations in a circularly sorted array
+4.12. Find the smallest missing element from a sorted array
+4.13. Find the number of 1?s in a sorted binary array
+4.14. Find the peak element in an array
+4.15. Maximum Subarray Sum using Divide and Conquer
+4.16. Find floor and ceil of a number in a sorted array (Recursive solution)
+4.17. Find the frequency of each element in a sorted array containing duplicates
+4.18. Find the minimum and maximum element in an array using Divide and Conquer
+4.19. Longest Common Prefix (LCP) Problem
+4.20. Exponential search
+4.21. Unbounded Binary Search
+4.22. Efficiently implement power function
+4.23. Linked List:
+4.24. Clone a Linked List
+4.25. Delete a linked list
+4.26. Split a linked list into two lists where each list contains alternating elements from it
+4.27. Construct a linked list by merging alternate nodes of two given lists
+4.28. Merge two sorted linked lists into one
+4.29. Efficiently merge k sorted linked lists
+4.30. Reverse a Linked List ? Recursive Solution
+4.31. Reverse every group of k nodes in a linked list
+4.32. Find k?th node from the end of a linked list
+4.33. Merge alternate nodes of two linked lists into the first list
+4.34. Delete every N nodes in a linked list after skipping M nodes
+4.35. Rearrange linked list in a specific manner in linear time
+4.36. Check if a linked list is palindrome or not
+4.37. Move the last node to the front of a linked list
+4.38. Rearrange a linked list by separating odd nodes from even ones
+4.39. Recursively check if the linked list of characters is palindrome or not
+4.40. Add a single-digit number to a linked list representing a number
+4.41. Reverse every alternate group of k nodes in a linked list
+4.42. Determine whether a linked list is palindrome or not
+4.43. Reverse a doubly linked list
+4.44. Pairwise swap adjacent nodes of a linked list
+4.45. Flatten a Linked List
+4.46. Check if a linked list of strings is palindromic
+4.47. Flatten a multilevel linked list
+4.48. Clone a linked list with random pointer
+4.49. Update random pointer for each linked list node to point to the maximum node

@@ -1,0 +1,14 @@
+5. Sorting:
+
+5.1. Insertion Sort Algorithm
+5.2. Selection Sort Algorithm
+5.3. Bubble Sort Algorithm
+5.4. Merge Sort Algorithm
+5.5. Quicksort Algorithm
+5.6. Hybrid QuickSort Algorithm
+5.7. Quicksort using Dutch National Flag Algorithm
+5.8. Quicksort algorithm using Hoare?s partitioning scheme
+5.9. Heap Sort Algorithm
+5.10. Introsort Algorithm ? Overview and C++ Implementation
+5.11. Merge sort algorithm for a singly linked list
+5.12. Sort a doubly-linked list using merge sort

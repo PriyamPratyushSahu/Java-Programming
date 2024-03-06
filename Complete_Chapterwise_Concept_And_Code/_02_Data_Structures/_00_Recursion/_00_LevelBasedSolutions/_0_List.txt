@@ -1,0 +1,54 @@
+List of Recursion Programs
+
+list of some easy-level recursion questions that you can practice:
+
+1. Factorial: Write a recursive function to calculate the factorial of a given positive integer.
+2. Fibonacci Sequence: Write a recursive function to calculate the nth term of the Fibonacci sequence.
+3. Sum of Digits: Write a recursive function to find the sum of the digits of a positive integer.
+4. Power Calculation: Write a recursive function to calculate the result of raising a number to a power.
+5. GCD (Greatest Common Divisor): Write a recursive function to find the greatest common divisor of two numbers.
+6. Palindrome Check: Write a recursive function to check if a given string is a palindrome.
+7. Array Sum: Write a recursive function to calculate the sum of all elements in an integer array.
+8. Array Reverse: Write a recursive function to reverse an integer array.
+9. String Length: Write a recursive function to find the length of a string.
+10. Print Numbers: Write a recursive function to print numbers from 1 to N.
+11. Binary Search: Write a recursive function to perform a binary search on a sorted array.
+12. Sum of First N Natural Numbers: Write a recursive function to find the sum of the first N natural numbers.
+13. Print String Characters: Write a recursive function to print characters of a string one by one.
+
+14. Count Occurrences: Write a recursive function to count the occurrences of a specific element in an integer array.
+15. Check Prime: Write a recursive function to check if a given number is prime.
+16. Print Even or Odd Numbers: Write a recursive function to print even or odd numbers within a given range.
+17. String Reversal: Write a recursive function to reverse a string.
+18. Decimal to Binary: Write a recursive function to convert a decimal number to binary.
+19. Print Factorials: Write a recursive function to print the factorials of numbers from 1 to N.
+20. Check Anagram: Write a recursive function to check if two strings are anagrams of each other.
+21. Array Search: Write a recursive function to find the index of a specific element in an integer array.
+22. Print Characters in Reverse: Write a recursive function to print the characters of a string in reverse order.
+23. Generate Subsets: Write a recursive function to generate all possible subsets of a given set.
+24. Count Vowels: Write a recursive function to count the number of vowels in a string.
+25. Decimal to Octal: Write a recursive function to convert a decimal number to octal.
+
+Certainly! Here are a few more easy-level recursion questions:
+
+26. Fibonacci Series: Write a recursive function to generate the Fibonacci series up to a given number.
+27. Power of a Number: Write a recursive function to calculate the power of a number.
+28. Sum of Digits: Write a recursive function to find the sum of the digits of a given number.
+29. GCD (Greatest Common Divisor): Write a recursive function to find the GCD of two numbers using the Euclidean algorithm.
+30. Largest Element in an Array: Write a recursive function to find the largest element in an integer array.
+31. Print 1 to N: Write a recursive function to print numbers from 1 to N in increasing order.
+32. Print N to 1: Write a recursive function to print numbers from N to 1 in decreasing order.
+33. Check Palindrome String: Write a recursive function to check if a given string is a palindrome.
+34. Print Pascal's Triangle: Write a recursive function to print the first N rows of Pascal's Triangle.
+35. Tower of Hanoi: Write a recursive function to solve the Tower of Hanoi puzzle.
+
+These additional questions will further enhance your understanding of recursion and help you practice various recursion techniques. Remember to break down the problem into smaller subproblems and apply the recursive logic to solve them effectively.
+
+These questions cover a variety of concepts and can help you build a strong foundation in recursion. Remember to understand the base cases and recursive steps thoroughly for each problem.
+
+
+
+
+Inversion count of an array
+Find surpasser count for each array element
+Water Jugs Problem

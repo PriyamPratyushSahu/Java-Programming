@@ -13,11 +13,11 @@ public class Prog6 {
         LocalDate currentDate = LocalDate.now();
         
         // Create a LocalDate for January 1, 2024
-        LocalDate january1_2024 = LocalDate.of(2024, 1, 1);
+        LocalDate futureDate = LocalDate.of(2025, 5, 31);
         
-        // Calculate the number of days between today and January 1, 2024
-        long remainingDays = ChronoUnit.DAYS.between(currentDate, january1_2024);
+        // Calculate the number of days between today and May 31, 2024
+        long remainingDays = ChronoUnit.DAYS.between(currentDate, futureDate);
         
-        System.out.println("Remaining days until January 1, 2024: " + remainingDays + " days");
+        System.out.println("Remaining days until May 31, 2024: " + remainingDays + " days");
     }
 }

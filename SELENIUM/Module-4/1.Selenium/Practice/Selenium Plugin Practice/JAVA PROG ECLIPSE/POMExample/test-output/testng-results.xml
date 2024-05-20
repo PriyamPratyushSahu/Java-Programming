@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-03T12:39:06 IST" name="Default suite" finished-at="2022-03-03T12:39:12 IST" duration-ms="6357">
+    <groups>
+    </groups>
+    <test started-at="2022-03-03T12:39:06 IST" name="Default test" finished-at="2022-03-03T12:39:12 IST" duration-ms="6357">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:tests.LoginTest@72057ecf]" started-at="2022-03-03T12:39:06 IST" name="before" finished-at="2022-03-03T12:39:09 IST" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="f()[pri:0, instance:tests.LoginTest@72057ecf]" started-at="2022-03-03T12:39:09 IST" name="f" finished-at="2022-03-03T12:39:09 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="testHotelAppLogin()[pri:0, instance:tests.LoginTest@72057ecf]" started-at="2022-03-03T12:39:09 IST" name="testHotelAppLogin" finished-at="2022-03-03T12:39:12 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelAppLogin -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.LoginTest@72057ecf]" started-at="2022-03-03T12:39:12 IST" name="after" finished-at="2022-03-03T12:39:12 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

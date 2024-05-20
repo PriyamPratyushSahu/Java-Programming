@@ -1,0 +1,68 @@
+{
+  "id": "51167e74-65c0-4656-9380-93db45991673",
+  "version": "2.0",
+  "name": "Google_Project_3",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "fde1c016-e7ee-4aab-8da3-d0fb666fb8de",
+    "name": "Test_1",
+    "commands": [{
+      "id": "b60e70e6-3e69-45b8-b8d5-56f9fcc5bc3b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad876b6a-6c41-4beb-ad58-6284f3389e53",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1282x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a103cba-c8b8-4574-9081-dd678bc9b794",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db66ffdd-03cb-497f-b26a-0a534d34cbd6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "b04080dc-8eb8-4f2e-85dd-ed94ed6eb186",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1683be49-c096-4e1b-aa6b-4ff3efa88aa0",
+      "comment": "",
+      "command": "click",
+      "target": "//h3[normalize-space()='Selenium']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b738a737-fc80-467b-ac46-c7d1eae35bd7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fde1c016-e7ee-4aab-8da3-d0fb666fb8de"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

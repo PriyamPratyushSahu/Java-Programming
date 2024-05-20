@@ -1,0 +1,126 @@
+{
+  "id": "3da3edcf-64d1-4e97-a99c-d3a6875ea22b",
+  "version": "2.0",
+  "name": "Google_Project_2",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "9736cc23-793a-4e8e-af65-336a579c0af0",
+    "name": "Test_1",
+    "commands": [{
+      "id": "bdd482f8-4e6d-4e99-93c2-b0a0d9381500",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5821e2bf-b5c3-42f2-a4a3-355f326b84dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "872x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "161c6f9d-51e3-445f-a91d-ed3f5fda06e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mobiles"
+    }, {
+      "id": "203663e9-ea0d-4e16-8ba7-86821d84c762",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d8dfa0bb-a6f4-4d8b-9972-6bf6dcb9cd78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c17e994f-32fb-4e30-a87e-f5a617064bc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c03b5e-e7bf-4e08-8b72-31fbce6a4343",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "laptop"
+    }, {
+      "id": "cadbf47d-4c7b-4048-b67f-b0628c1f484b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ff79c3cb-8b63-4d1a-97ee-651429068541",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d9f0d6-2d6d-41f1-9fa0-7e54682b5259",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.forward()",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05ec57b2-71d0-4f54-93d2-d9740d3f8ff2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flipkart.com/", "https://www.amazon.in/"],
+  "plugins": []
+}

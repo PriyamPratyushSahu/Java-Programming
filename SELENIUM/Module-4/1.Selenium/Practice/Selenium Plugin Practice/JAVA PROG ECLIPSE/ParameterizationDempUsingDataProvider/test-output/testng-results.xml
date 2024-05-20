@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-05T10:48:04 IST" name="Default suite" finished-at="2022-03-05T10:48:19 IST" duration-ms="14273">
+    <groups>
+    </groups>
+    <test started-at="2022-03-05T10:48:04 IST" name="Default test" finished-at="2022-03-05T10:48:19 IST" duration-ms="14273">
+      <class name="test.HotelAppLogin1">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:test.HotelAppLogin1@1725dc0f]" started-at="2022-03-05T10:48:04 IST" name="test" data-provider="testdata" finished-at="2022-03-05T10:48:12 IST" duration-ms="7863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu56789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anus@345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:test.HotelAppLogin1@1725dc0f]" started-at="2022-03-05T10:48:12 IST" name="test" data-provider="testdata" finished-at="2022-03-05T10:48:19 IST" duration-ms="6318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak2510]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deepak@2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- test.HotelAppLogin1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

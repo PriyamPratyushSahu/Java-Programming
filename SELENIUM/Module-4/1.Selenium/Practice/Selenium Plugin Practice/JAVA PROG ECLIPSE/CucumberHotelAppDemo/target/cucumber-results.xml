@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.553">
+    <testcase classname="HotelApp Login" name="Login succesful." time="0.255">
+        <failure message="'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'" type="java.lang.NoSuchMethodError"><![CDATA[Given I am on HotelApp Login page...........................................failed
+When User enters username...................................................skipped
+And User enters password....................................................skipped
+And User clicks Login button................................................skipped
+Then User gets Login succeesful.............................................skipped
+
+StackTrace:
+java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at com.stepDefinition.HotelAppTest.i_am_on_hotel_app_login_page(HotelAppTest.java:18)
+	at ✽.I am on HotelApp Login page(file:///C:/Users/ANUSMITA%20SARKAR/Documents/CAPGEMINI%20CW/JAVA%20PROG%20ECLIPSE/CucumberHotelAppDemo/Features/CucumberHotelAppDemo.feature:24)
+]]></failure>
+    </testcase>
+</testsuite>

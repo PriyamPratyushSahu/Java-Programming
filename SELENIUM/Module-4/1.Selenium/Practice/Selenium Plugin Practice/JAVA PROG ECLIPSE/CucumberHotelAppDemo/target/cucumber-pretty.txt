@@ -1,0 +1,18 @@
+
+@tag @tag1
+Scenario: Login succesful.          # Features/CucumberHotelAppDemo.feature:23
+  Given I am on HotelApp Login page # com.stepDefinition.HotelAppTest.i_am_on_hotel_app_login_page()
+      java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at com.stepDefinition.HotelAppTest.i_am_on_hotel_app_login_page(HotelAppTest.java:18)
+	at ✽.I am on HotelApp Login page(file:///C:/Users/ANUSMITA%20SARKAR/Documents/CAPGEMINI%20CW/JAVA%20PROG%20ECLIPSE/CucumberHotelAppDemo/Features/CucumberHotelAppDemo.feature:24)
+
+  When User enters username         # com.stepDefinition.HotelAppTest.user_enters_username()
+  And User enters password          # com.stepDefinition.HotelAppTest.user_enters_password()
+  And User clicks Login button      # com.stepDefinition.HotelAppTest.user_clicks_login_button()
+  Then User gets Login succeesful   # com.stepDefinition.HotelAppTest.user_gets_login_succeesful()

@@ -1,0 +1,43 @@
+1. Write a program in java to take two words as input and display
+   the longest word.
+2. Write a program to take a word as input and display each letter
+   with a space.
+3. Write a program in java to take a string as input
+   and count number of words.
+4. Write a program in java to take a string as input and
+   find the ocuurance of each vowels.
+5. Write a program in java to take a string as input and display each
+   letter in one column and corresponding ASCII value in another column.
+6. Write a program in java to take a string as input. Display the string
+   replacing all whitespaces from it.
+
+	Word Based Program
+7. Write a program in java to take string as input.
+   INPUT: 
+   DO YOUR DUTY
+   OUTPUT:
+   DO 
+   YOUR
+   DUTY
+8.Write a program in java to take string as input.
+  INPUT: 
+  DO YOUR DUTY
+  OUTPUT:
+  D
+  DO
+  Y
+  YO
+  YOU 
+  YOUR
+  D
+  DU
+  DUT
+  DUTY
+9.Write a program in java to take string as input.
+  INPUT: 
+  DO YOUR DUTY
+  OUTPUT:
+  DO 
+  DO YOUR
+  DO YOUR DUTY
+10.

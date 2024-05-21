@@ -1,0 +1,59 @@
+1.Java program to find perfect numbers.
+2.Java program to print perfect numbers from 1 to 1000
+3.Java program to split number into digits.
+4.Java program to swap two array.
+5.Java program to find NCR factor of given number.
+6.Java program to find generic root.
+7.Java program to add two number without using addition operator.
+8.Java program to sum digits of a number.
+9.Java program to reverse a number.
+	
+				String Based Programs
+
+10.Java program to find the frequency of one string in another string.
+11.Java program to remove vowels from a string.
+12.Java program to remove common characters from two strings.
+13.Java program to finding Shortest and Longest Words in a String.
+14.Java program to reverse a String without using direct method.
+15.Java program to input name, middle name and surname of a person and print only the initials.
+16.Java program to remove duplicates characters from given String.
+17.Java program to count the occurrence of any character in given String.
+18.Java program to find palindromic substring in a string.
+19.Java program to accept a string and print each character of the string along with its ASCII code.
+
+				Common Logical Programs
+
+20.Java program to find whether given no. is Armstrong or not.
+21.Java program to Generate prime numbers between 1 & given number.
+22.Java program to calculate Factorial of a number using recursion.
+23.Java program to check Palindrome Number.
+24.Java program to calculate the Simple Interest and Input by the user.
+25.Java program to design a class account using the inheritance and static that show all function of bank and generate account number dynamically.
+26.Java program to find out the HCF and LCF.
+27.Java program to test the Prime number.
+28.Java program to Demonstrate Type Casting.
+29.Find the average, sum, min and max of the N numbers Using user Input in Java.
+30.How can you determine if String has all Unique Characters?
+31.How to reverse a String without using any direct method.
+32.How to convert String to integer without using any direct method in Java.
+33.How to find the missing values from an sorted array.
+34.How to reverse an array without using any built in method and any other array.
+35.How to remove specific character from an String in Java.
+36.How to find the caller of a method in Java.
+37.How to call private method from another class in java
+
+				JDBC Based Programs
+
+38.Write a java program to create a table through frontend application?
+39.Write a java program which illustrates the concept of Batch processing?
+40.Write a java program to create a table through frontend application?
+41.Write a java program which illustrates the concept of updatable ResultSet?
+42.Write a java program which illustrates the concept of scrollable ResultSet?
+43.Write a java program which points the data of a table along with its column names?
+44.Write a java program which illustrates the concept of resource bundle file or how to develop a flexible jdbc application along with its metadata?
+45.Write a java program which illustrates the concept of DatabaseMetaData and ResultSetMetaData?
+46.Write a jdbc program to retrieve the data from excel?
+47.Write a java program to retrieve the records from a specified database by accepting input from keyboard?
+48.Write a java program to insert a record in dept database by accepting the data from keyboard at runtime using dynamic queries?
+49.Write a java program to retrieve the data from emp database?
+50.Write a jdbc program which will insert a record in the Student database?

@@ -1,4 +1,0 @@
-1: Today I cleaned my room
-2: Today I cooked food
-3: Today I went for a walk
-4: Today I went to temple
